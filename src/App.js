@@ -1,21 +1,17 @@
 import React from 'react';
+import { IntlProvider } from 'react-intl';
 import './App.scss';
 import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
-import Profile from './components/Profile/Profile';
+import messages from './lang/uk-UA.yml';
 
 const App = () => {
+  const defaultLocale = 'uk-UA';
   return (
-    <div className="app-wrapper">
-      <Header />
-    
-      <Navbar />
-
-      <Profile />
-      <div className="content">
-        <img className="" src="https://devote-movie.info/wp-content/uploads/2019/01/Beaches-in-India_1.jpg" />
+    <IntlProvider locale={defaultLocale} messages={messages}>
+      <div className="app-wrapper">
+        <Header />
       </div>
-    </div>
+    </IntlProvider>
   )
 };
 
