@@ -1,0 +1,79 @@
+@import "../../variables.scss";
+
+.header {
+  border-top: 10px solid $primary;
+  min-width: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  .logo {
+    background: url(../../img/logo.png) no-repeat 0 1px;
+    height: 63px;
+    min-width: 154px;
+    padding: 0 80px 0 170px;
+    font-size: $fs-large;
+    padding-top: 60px;
+    font-weight: normal;
+    color: $primary !important;
+    text-decoration: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 28px;
+
+    .item {
+      width: 110px;
+      height: 40px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 16px;
+      height: auto;
+      cursor: pointer;
+      color: $primary;
+      text-decoration: none;
+
+      &:hover {
+        color: $active;
+      }
+    }
+
+    .phones {
+      padding-top: 0;
+      background: url(../../img/phone-icon.png) no-repeat 0 center;
+      min-height: 34px;
+      padding-left: 58px;
+      margin-left: 32px;
+      width: 165px;
+
+      div {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+      }
+
+      strong {
+        padding-left: 5px;
+        font-size: $fs-large;
+        color: $primary;
+      }
+    }
+  }
+
+  .brush {
+    margin-left: 30px;
+    margin-top: -54px;
+    width: 53px;
+    height: 106px;
+    background: url(../../img/brush.png) no-repeat 0 0;
+  }
+}
