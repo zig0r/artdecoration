@@ -1,7 +1,10 @@
-test: me
-test_md: !md |
-  ### test title
-
-  * 1
-  * 2
-  * 3
+name: art decoration
+menu:
+  studio: Студія
+  services: Послуги
+  gallery: Галерея
+  contacts: Контакти
+  phones:
+    - !md (067) **339-05-12**
+    - !md (067) **339-05-12**
+    - !md (067) **339-05-12**
