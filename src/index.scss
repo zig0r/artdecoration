@@ -1,10 +1,11 @@
+@import './variables.scss';
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  color: $primaryLight;
+  font-size: $fs-normal;
+  background-image: url('./img/main-bg.jpg');
 }
 
 code {
@@ -12,3 +13,8 @@ code {
     monospace;
 }
 
+.active {
+  color: $active !important;
+  font-size: $fs-active;
+  font-weight: bold;
+}
