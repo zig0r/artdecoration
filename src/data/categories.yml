@@ -1,0 +1,29 @@
+categories:
+  name: decor
+  children:
+    id: 6
+    name: venetsianka
+    id: 7
+    name: grotto
+    id: 8
+    name: marmorino
+    id: 9
+    name: marselskii-visk
+    id: 10
+    name: mirazh
+    id: 11
+    name: ottochento
+    id: 12
+    name: papirus
+    id: 13
+    name: persiia
+    id: 14
+    name: sakhara
+    id: 15
+    name: stukko
+    id: 16
+    name: travertino
+    id: 21
+    name: imitatsiia-dereva
+    id: 22
+    name: dekorativnii-kamin

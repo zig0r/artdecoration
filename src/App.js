@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Studio from './components/Studio/Studio';
 import Services from './components/Services/Services';
 import Gallery from './components/Gallery/Gallery';
+import Footer from './components/Footer/Footer';
 import Contacts from './components/Contacts/Contacts';
 import messages from './lang/uk-UA.yml';
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/gallery" component={Gallery} />
           <Route path="/contacts" component={Contacts} />
         </div>
+        <Footer />
       </IntlProvider>
     </BrowserRouter>
   )

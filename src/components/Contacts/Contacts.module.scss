@@ -1,0 +1,10 @@
+@import "../../variables.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  .form {
+    width: 600px;
+  }
+}
