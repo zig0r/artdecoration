@@ -1,10 +1,20 @@
 import React from 'react';
-import { FormattedMessage as T } from 'react-intl';
+import './Studio.module.scss';
+import SwiperSlide from '../Swiper/SwiperSlide';
+import { FormattedMessage as T, FormattedHTMLMessage as Thtml } from 'react-intl';
 
-const Studio = () => {
-  return (
-    <div>Studio</div>
-  )
-}
+export default () => (
+  <div>
+    <SwiperSlide name="main" />
 
-export default Studio;
+    <div className="content">
+      <h3 className="head">
+        <T id="menu.studio" />
+      </h3>
+
+      <div className="markdown" id="main">
+        <Thtml id="main.content" />
+      </div>
+    </div>
+  </div>
+)
