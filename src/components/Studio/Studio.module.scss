@@ -3,3 +3,18 @@
 #main {
   text-align: justify !important;
 }
+
+.brief {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contacts {
+  position: relative;
+  clear: both;
+  min-height: 321px;
+  padding-bottom: 20px;
+  background: url(../../img/hand.png) no-repeat 17px 0;
+  padding: 70px 0 0 615px;
+}
