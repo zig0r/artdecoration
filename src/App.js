@@ -7,12 +7,12 @@ import Services from './components/Services/Services';
 import Gallery from './components/Gallery/Gallery';
 import Footer from './components/Footer/Footer';
 import Contacts from './components/Contacts/Contacts';
-import messages from './lang/uk-UA.yml';
+import messages from './lang/uk.yml';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 
 const App = () => {
-  const defaultLocale = 'uk-UA';
+  const defaultLocale = 'uk';
   const appMessages = flattenObject(messages);
   appMessages.raw = messages;
   return (

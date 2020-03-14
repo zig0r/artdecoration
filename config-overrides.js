@@ -1,4 +1,5 @@
 module.exports = function override(config) {
+  config.resolve.alias['@'] = `${__dirname}/src`;
   config.module.rules[2].oneOf.unshift({
     type: 'json',
     test: /\.ya?ml$/,
