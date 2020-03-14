@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
 import s from './Footer.module.scss';
-import { FormattedMessage as T, FormattedHTMLMessage as Thtml } from 'react-intl';
+import { FormattedMessage as T, FormattedHTMLMessage as Thtml, useIntl } from 'react-intl';
 
+const currentYear = new Date().getFullYear();
 const Footer = () => {
-  const placeholder = <T id="footer.placeholder" />
+  const intl = useIntl();
   return (
     <footer className={s.footer}>
-      <div className="markdown"><Thtml id="footer.describe" /></div>
+      <div className="markdown"><Thtml id="footer.describe" values={{ year: currentYear }} /></div>
       <div><T id="footer.share" /></div>
-      <div><input className={s.search} type="text" placeholder={placeholder} /></div>
+      <div><input className={s.search} type="text" placeholder={intl.formatMessage({ id: 'footer.placeholder' })} /></div>
     </footer>
   )
 }
