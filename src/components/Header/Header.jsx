@@ -1,7 +1,7 @@
 import React from 'react';
-import s from './Header.module.scss';
 import { FormattedMessage as T, useIntl } from 'react-intl';
 import { NavLink } from 'react-router-dom';
+import s from './Header.module.scss';
 
 const Header = () => {
   const intl = useIntl();

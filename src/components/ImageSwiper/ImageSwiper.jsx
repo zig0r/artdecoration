@@ -1,25 +1,16 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
-import { FormattedMessage as T, useIntl } from 'react-intl';
-import 'swiper/swiper.scss';
-import './SwiperSlide.scss';
+import './ImageSwiper.scss';
 
 const params = {
   slidesPerView: 'auto',
   centeredSlides: true,
+  slideToClickedSlide: true,
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 50000,
     disableOnInteraction: false
   },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
-  }
 };
 
 const requireImage = require.context('../../img/galleries', true, /\.(jpe?g|png|svg)$/);
@@ -31,16 +22,17 @@ const IMAGES = requireImage.keys().reduce((images, path) => {
 }, {});
 
 export default (props) => {
-  const intl = useIntl();
   const images = IMAGES[props.name];
 
   return (
-    <Swiper {...params} slideClass="effect2">
-      {images.map(url => (
-        <div key={url}>
-          <img src={url} />
-        </div>
-      ))}
-    </Swiper>
+    <div className="image-swiper">
+      <Swiper {...params} slideClass="no-styles">
+        {images.map((url) => (
+          <div key={url}>
+            <img src={url} height="400" width="1100" />
+          </div>
+        ))}
+      </Swiper>
+    </div>
   )
 };

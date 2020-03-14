@@ -1,0 +1,43 @@
+categories:
+- name: decor
+  title: Декоративні штукатурки
+  children:
+  - name: venetsianka
+    title: Венеціанка
+  - name: grotto
+    title: Гротто
+  - name: marmorino
+    title: Марморіно
+  - name: marselskyi-visk
+    title: Марсельський віск
+  - name: mirazh
+    title: Міраж
+  - name: ottochento
+    title: Отточенто
+  - name: papirus
+    title: Папірус
+  - name: persiya
+    title: Персія
+  - name: sahara
+    title: Сахара
+  - name: stukko
+    title: Стукко
+  - name: travertino
+    title: Травертіно
+  - name: imitatsiia-dereva
+    title: Імітація дерева
+  - name: dekorativnyi-kamin
+    title: Декоративний камінь
+- name: rospis
+  title: Розпис стін, фрески
+  children:
+  - name: khudozhnii-rozpis
+    title: Художній розпис
+  - name: relefnii-rozpis
+    title: Рельєфний розпис
+  - name: trafaretnii-rozpis
+    title: Трафаретний розпис
+  - name: bagheti-koloni-kapiteli
+    title: Багети, колони, капітелі
+  - name: petrikivskii-rozpis
+    title: Петриківський розпис
