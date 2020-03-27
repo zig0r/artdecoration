@@ -43,16 +43,20 @@ prices:
     [info@artdecoration.com.ua](mailto:info@artdecoration.com.ua)
 footer:
   describe: !md |
-    Творча майстерня «**Art decoration**» © 2012 - {year}
+    Творча майстерня «**Art decoration**» © 2012 - {year}\
     Пишіть нам: [info@artdecoration.com.ua](mailto:info@artdecoration.com.ua)
   share: Поділитися
   placeholder: Хочу знайти!
+validation:
+  valueMissing: Обов'язкове поле
+  invalidEmail: Некоректний e-mail
 contact:
   name: Контакти
   form:
+    title: Пишіть
     name: Назвіться
     email: Ваша пошта
-    text: Текст повідомлення
+    message: Текст повідомлення
     send: Надіслати
   phone: Телефонуйте
   details: !md |
@@ -60,6 +64,6 @@ contact:
     Якісне нанесення декоративної штукатурки** різних стилів, як імпортного так і
     вітчизняного виробництва: венеціанська штукатурка, стукко, марморіно,
     травертіно, марсельський віск, папірус, гротто, міраж, персія, отточенто,
-    сахара.
+    сахара.\
     [**Художній розпис стін і стелі**](http://www.artdecoration.com.ua/service/show-17-khudozhnii-rozpis#ad-image-0),
     фактурний розпис з використанням ліплення, трафаретний розпис. Імітація каменю, цегли, дерева.
