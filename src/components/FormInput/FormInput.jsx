@@ -1,5 +1,4 @@
 import React from 'react';
-import s from '../Contacts/Contacts.module.scss';
 import { InputGroup } from "react-html5-form";
 import { FormattedMessage as T, useIntl } from 'react-intl';
 
@@ -35,7 +34,7 @@ const FormInput = ({ name, className, scope, controlsClassName, type = 'text', .
             }
           </div>
         </div>
-        {error && <div class="error">{intl.formatMessage({ id: error })}</div>}
+        {error && <div className="error">{intl.formatMessage({ id: error })}</div>}
       </>)}
     </InputGroup >
   );
