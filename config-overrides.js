@@ -4,12 +4,18 @@ module.exports = function override(config) {
     type: 'json',
     test: /\.ya?ml$/,
     use: [
-      { loader: require.resolve('xyaml-webpack-loader') }
+      {
+        loader: require.resolve('xyaml-webpack-loader'),
+        query: {
+          markdown: {
+            use: {
+              'markdown-it-container': ['image']
+            }
+          }
+        }
+      }
     ],
   });
-
-  // console.dir(config.module.rules)
-  // throw 'test'
 
   return config;
 }

@@ -1,10 +1,41 @@
 import React from 'react';
-import { FormattedMessage as T } from 'react-intl';
+import s from './Services.module.scss';
+import { useParams, Redirect, useLocation } from 'react-router-dom';
+import { FormattedMessage as T, useIntl } from 'react-intl';
+import { useCategories, useCategory } from '../../services/hooks';
+import CategoriesNav from '../CategoriesNav';
+import CategorySwiper from './ServicesSwiper';
 
-const Services = () => {
+export default () => {
+  const intl = useIntl();
+  const params = useParams()
+  const location = useLocation();
+  const category = useCategory(params.id);
+  const { categories } = useCategories(intl.locale);
+
+  if (!params.id && categories) {
+    return <Redirect to={`${location.pathname}/${categories[0].children[0].name}`} />
+  }
+
+  if (!category || !categories) {
+    return null
+  }
+
   return (
-    <div>Services</div>
-  )
-}
+    <div className="content">
+      <h3 className="container-style">
+        <T id="services.name" />
+      </h3>
 
-export default Services;
+      <div className={s.servicesBlock}>
+        <div className={s.menu}>
+          <CategoriesNav activeId={params.id} />
+        </div>
+        <div className={s.content}>
+          <div className="markdown" dangerouslySetInnerHTML={{ __html: category.description }}></div>
+        </div>
+      </div>
+      <CategorySwiper name={category.name} key={category.name} />
+    </div>
+  )
+};

@@ -1,0 +1,13 @@
+.swiper-lazy {
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.swiper-lazy.swiper-lazy-loaded {
+  opacity: 1;
+}
+
+.swiper-lazy-preloader {
+  border-color: #c00;
+  border-top-color: transparent;
+}

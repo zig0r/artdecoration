@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
 const Footer = () => {
   const intl = useIntl();
   return (
-    <footer className={s.footer}>
+    <footer className={`container-style top-only ${s.footer}`}>
       <div className="markdown"><Thtml id="footer.describe" values={{ year: currentYear }} /></div>
       <div><T id="footer.share" /></div>
       <div><input className={s.search} type="text" placeholder={intl.formatMessage({ id: 'footer.placeholder' })} /></div>
