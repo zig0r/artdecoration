@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import "@/styles/variables.scss";
 
 #main {
   text-align: justify !important;
@@ -25,7 +25,7 @@
   clear: both;
   min-height: 258px;
   padding-bottom: 20px;
-  background: url(../../img/hand.png) no-repeat 17px 0;
+  background: url(~@/img/hand.png) no-repeat 17px 0;
   padding: 70px 0 0 615px;
 }
 

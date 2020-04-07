@@ -1,0 +1,25 @@
+.markdown {
+  a {
+    color: $active;
+  }
+
+  .image {
+    overflow: hidden;
+  }
+
+  .image > p > img {
+    float: left;
+  }
+
+  .image[data-float="right"] > p > img {
+    float: right;
+  }
+}
+
+sup {
+  // display: inline-block;
+  font-size: 12px;
+  color: #b4b4b4;
+  padding: 5px 0 0 8px;
+  vertical-align: super;
+}
