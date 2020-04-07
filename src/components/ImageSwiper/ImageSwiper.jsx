@@ -1,6 +1,7 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
 import './ImageSwiper.scss';
+import GALLERIES from '../../services/gallery';
 
 const params = {
   slidesPerView: 'auto',
@@ -13,23 +14,15 @@ const params = {
   },
 };
 
-const requireImage = require.context('../../img/galleries', true, /\.(jpe?g|png|svg)$/);
-const IMAGES = requireImage.keys().reduce((images, path) => {
-  const type = path.slice(2, path.indexOf('/', 2));
-  images[type] = images[type] || [];
-  images[type].push(requireImage(path));
-  return images;
-}, {});
-
 export default (props) => {
-  const images = IMAGES[props.name];
+  const images = GALLERIES[props.name];
 
   return (
     <div className="image-swiper">
       <Swiper {...params} slideClass="no-styles">
         {images.map((url) => (
           <div key={url}>
-            <img src={url} height="400" width="1100" />
+            <img src={url} height="400" width="1100" alt="decor" />
           </div>
         ))}
       </Swiper>

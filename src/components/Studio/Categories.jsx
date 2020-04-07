@@ -29,7 +29,7 @@ export default class Categories extends React.PureComponent {
           ))}</ul>
         </div>
         <div>
-          <img src={require(`@/img/categories/${selectedChild.name}.jpg`)} width="224" />
+          <img alt="decor" src={require(`@/img/categories/${selectedChild.name}.jpg`)} width="224" />
         </div>
       </div>
     });

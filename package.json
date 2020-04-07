@@ -18,9 +18,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "markdown-it-container": "^2.0.0",
     "react-app-rewired": "^2.1.5",
     "react-scripts": "^3.4.0",
-    "xyaml-webpack-loader": "^0.3.0"
+    "xyaml-webpack-loader": "0.6.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
