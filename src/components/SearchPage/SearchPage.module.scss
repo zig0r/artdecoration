@@ -27,3 +27,15 @@
     color: #333;
   }
 }
+
+.searchResults {
+  margin-top: 50px;
+
+  h4 a {
+    color: #000;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

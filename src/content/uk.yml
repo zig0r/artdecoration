@@ -74,6 +74,7 @@ gallery:
 search:
   name: Пошук ({amount})
   findButton: Знайти
+  notFound: Нажаль, за даним запитом нічого не знайдено
 notfound:
   name: Сторінка не знайдена
   content: !md |

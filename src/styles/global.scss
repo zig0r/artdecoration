@@ -17,7 +17,6 @@ code {
 }
 
 .content {
-  width: 1100px;
   margin: 20px auto 0 auto;
 }
 
@@ -121,4 +120,9 @@ input,
 textarea,
 button {
   font-size: $fs-less-normal;
+}
+
+.content-wrapper {
+  width: 1100px;
+  margin: auto;
 }

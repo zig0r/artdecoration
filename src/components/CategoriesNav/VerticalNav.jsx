@@ -10,7 +10,7 @@ export default ({ categories, activeParent, selectParent, pathPrefix }) => (
         key={item.name}
         onClick={() => selectParent(item)}
       >
-        <button type="button" className={s.title}>{item.title}</button>
+        <button type="button" className={`${s.title} btn`}>{item.title}</button>
 
         <div className={`${s.submenu} ${activeParent === item ? s.active : ''}`}>
           {item.children.map((child) => (

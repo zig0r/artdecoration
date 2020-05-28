@@ -1,0 +1,12 @@
+routes:
+  - exact: true
+    path: ['/', '/main']
+    component: Studio
+  - path: /service/:id?
+    component: Services
+  - path: /gallery/:id?
+    component: Gallery
+  - path: /contacts
+    component: Contacts
+  - path: /search
+    component: SearchPage

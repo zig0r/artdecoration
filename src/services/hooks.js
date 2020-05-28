@@ -29,14 +29,16 @@ function indexifyCategories(categories, parent = null) {
   return byName;
 }
 
-export const useCategories = createHookForList(memoize(async (lang) => {
+export const fetchCategories = memoize(async (lang) => {
   const module = await import(`../content/categories.${lang}.yml`);
 
   return {
     categories: module.categories,
     byName: indexifyCategories(module.categories),
   };
-}));
+});
+
+export const useCategories = createHookForList(fetchCategories);
 export const useQuotes = createHookForList(memoize(lang => import(`../content/quotes.${lang}.yml`)))
 
 export function useCategory(id) {
