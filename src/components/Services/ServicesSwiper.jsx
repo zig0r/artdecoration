@@ -39,10 +39,15 @@ export default (props) => {
   const [thumbsSwiper, setThumbnailSwiper] = useState(null);
   const images = GALLERIES[props.name];
 
+  if (!images) {
+    return null;
+  }
+
   useAsSwiperController(categorySwiper, thumbsSwiper);
 
   return (
-    <div>
+
+    <div >
       <Swiper {...thumbsSwiperOptions} getSwiper={setThumbnailSwiper}>
         {images.map((url, index) => (
           <div key={index} style={{ backgroundImage: `url(${url})` }}></div>
