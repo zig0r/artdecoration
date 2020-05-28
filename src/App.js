@@ -9,8 +9,7 @@ import Gallery from './components/Gallery/Gallery';
 import Footer from './components/Footer/Footer';
 import Contacts from './components/Contacts/Contacts';
 import PageNotFound from './components/PageNotFound/PageNotFound';
-import messages from './lang/uk.yml';
-
+import messages from './content/uk.yml';
 
 const App = () => {
   const defaultLocale = 'uk';
@@ -23,7 +22,7 @@ const App = () => {
         <Switch>
           <Route exact path={["/", "/main"]} component={Studio} />
           <Route path="/service/:id?" component={Services} />
-          <Route path="/gallery" component={Gallery} />
+          <Route path="/gallery/:id?" component={Gallery} />
           <Route path="/contacts" component={Contacts} />
           <Route path="*" component={PageNotFound} />
         </Switch>

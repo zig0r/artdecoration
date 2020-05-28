@@ -1,0 +1,61 @@
+categories:
+- name: decor
+  title: Декоративні штукатурки
+  children:
+  - name: venetsianka
+    title: Венеціанка
+    description: !md "@include: categories/venetsianka.uk.md"
+  - name: grotto
+    title: Гротто
+    description: !md "@include: categories/grotto.uk.md"
+  - name: marmorino
+    title: Марморіно
+    description: !md "@include: categories/marmorino.uk.md"
+  - name: marselskyi-visk
+    title: Марсельський віск
+    description: !md "@include: categories/marselskyi-visk.uk.md"
+  - name: mirazh
+    title: Міраж
+    description: !md "@include: categories/mirazh.uk.md"
+  - name: ottochento
+    title: Отточенто
+    description: !md "@include: categories/ottochento.uk.md"
+  - name: papirus
+    title: Папірус
+    description: !md "@include: categories/papirus.uk.md"
+  - name: persiya
+    title: Персія
+    description: !md "@include: categories/persiya.uk.md"
+  - name: sahara
+    title: Сахара
+    description: !md "@include: categories/sahara.uk.md"
+  - name: stukko
+    title: Стукко
+    description: !md "@include: categories/stukko.uk.md"
+  - name: travertino
+    title: Травертіно
+    description: !md "@include: categories/travertino.uk.md"
+  - name: imitatsiia-dereva
+    title: Імітація дерева
+    description: !md "@include: categories/imitatsiia-dereva.uk.md"
+  - name: dekorativnyi-kamin
+    title: Декоративний камінь
+    description: !md "@include: categories/dekorativnyi-kamin.uk.md"
+- name: rospis
+  title: Розпис стін, фрески
+  children:
+  - name: khudozhnii-rozpis
+    title: Художній розпис
+    description: !md "@include: categories/khudozhnii-rozpis.uk.md"
+  - name: relefnii-rozpis
+    title: Рельєфний розпис
+    description: !md "@include: categories/relefnii-rozpis.uk.md"
+  - name: trafaretnii-rozpis
+    title: Трафаретний розпис
+    description: !md "@include: categories/trafaretnii-rozpis.uk.md"
+  - name: bagheti-koloni-kapiteli
+    title: Багети, колони, капітелі
+    description: !md "@include: categories/bagheti-koloni-kapiteli.uk.md"
+  - name: petrikivskii-rozpis
+    title: Петриківський розпис
+    description: !md "@include: categories/petrikivskii-rozpis.uk.md"
