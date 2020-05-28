@@ -9,7 +9,11 @@ module.exports = function override(config) {
         query: {
           markdown: {
             use: {
-              'markdown-it-container': ['image']
+              'markdown-it-container': ['image'],
+              'markdown-it-include': {
+                root: `${__dirname}/src/content`,
+                includeRe: /@include:\s*([\w._\/-]+)/
+              }
             }
           }
         }

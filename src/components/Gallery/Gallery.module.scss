@@ -1,0 +1,10 @@
+@import "@/styles/variables.scss";
+
+.galleryBlock {
+  display: inline-flex;
+  align-items: baseline;
+
+  .title {
+    margin-left: 20px !important;
+  }
+}
