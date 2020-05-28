@@ -71,3 +71,7 @@ services:
   name: Послуги
 gallery:
   name: Галерея
+notfound:
+  name: Сторінка не знайдена
+  content: !md |
+    Дана сторінка не знайдена
