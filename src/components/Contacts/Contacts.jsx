@@ -49,7 +49,8 @@ export default () => {
               <ContactInput
                 name="name"
                 className="input-block"
-                required value={values.name}
+                required
+                value={values.name}
                 onChange={setValue('name')}
               />
               <ContactInput

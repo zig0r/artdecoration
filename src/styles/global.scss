@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  line-height: 20px;
   font-family: Georgia, Helvetica, Arial, sans-serif;
   color: $primaryLight;
   font-size: $fs-normal;
@@ -103,4 +102,23 @@ sup {
 .error {
   color: $active;
   padding: 20px 0 0 10px;
+}
+
+.btn {
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  padding: 4px 14px;
+  text-align: center;
+}
+
+form {
+  margin: 0 0 20px;
+}
+
+input,
+textarea,
+button {
+  font-size: $fs-less-normal;
 }

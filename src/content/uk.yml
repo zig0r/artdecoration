@@ -71,6 +71,9 @@ services:
   name: Послуги
 gallery:
   name: Галерея
+search:
+  name: Пошук ({amount})
+  findButton: Знайти
 notfound:
   name: Сторінка не знайдена
   content: !md |

@@ -5,15 +5,15 @@
   "dependencies": {
     "flat": "^5.0.0",
     "lodash": "^4.17.15",
-    "node-sass": "^4.13.1",
+    "minisearch": "^2.3.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-html5-form": "^1.0.9",
     "react-id-swiper": "^2.4.0",
     "react-intl": "^3.12.0",
-    "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "swiper": "^5.3.1"
+    "swiper": "^5.3.1",
+    "url-search-params-polyfill": "^8.1.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -23,7 +23,8 @@
     "markdown-it-include": "^1.1.1",
     "react-app-rewired": "^2.1.5",
     "react-scripts": "^3.4.0",
-    "xyaml-webpack-loader": "0.6.0"
+    "xyaml-webpack-loader": "0.6.0",
+    "node-sass": "^4.13.1"
   },
   "scripts": {
     "start": "react-app-rewired start",
