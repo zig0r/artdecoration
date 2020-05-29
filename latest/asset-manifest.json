@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/artdecoration-on-reactjs/latest/static/css/main.39cd8c12.chunk.css",
-    "main.js": "/artdecoration-on-reactjs/latest/static/js/main.8e1bbee3.chunk.js",
-    "main.js.map": "/artdecoration-on-reactjs/latest/static/js/main.8e1bbee3.chunk.js.map",
-    "runtime-main.js": "/artdecoration-on-reactjs/latest/static/js/runtime-main.20f58ef4.js",
-    "runtime-main.js.map": "/artdecoration-on-reactjs/latest/static/js/runtime-main.20f58ef4.js.map",
-    "static/js/2.14fd787b.chunk.js": "/artdecoration-on-reactjs/latest/static/js/2.14fd787b.chunk.js",
-    "static/js/2.14fd787b.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/2.14fd787b.chunk.js.map",
-    "static/js/3.ed917ae0.chunk.js": "/artdecoration-on-reactjs/latest/static/js/3.ed917ae0.chunk.js",
-    "static/js/3.ed917ae0.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/3.ed917ae0.chunk.js.map",
-    "static/js/4.04344af1.chunk.js": "/artdecoration-on-reactjs/latest/static/js/4.04344af1.chunk.js",
-    "static/js/4.04344af1.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/4.04344af1.chunk.js.map",
-    "static/js/5.218b416e.chunk.js": "/artdecoration-on-reactjs/latest/static/js/5.218b416e.chunk.js",
-    "static/js/5.218b416e.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/5.218b416e.chunk.js.map",
+    "main.css": "/artdecoration-on-reactjs/latest/static/css/main.46a11fb7.chunk.css",
+    "main.js": "/artdecoration-on-reactjs/latest/static/js/main.0e7a3250.chunk.js",
+    "main.js.map": "/artdecoration-on-reactjs/latest/static/js/main.0e7a3250.chunk.js.map",
+    "runtime-main.js": "/artdecoration-on-reactjs/latest/static/js/runtime-main.6ea44a7f.js",
+    "runtime-main.js.map": "/artdecoration-on-reactjs/latest/static/js/runtime-main.6ea44a7f.js.map",
+    "static/js/2.3bef544d.chunk.js": "/artdecoration-on-reactjs/latest/static/js/2.3bef544d.chunk.js",
+    "static/js/2.3bef544d.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/2.3bef544d.chunk.js.map",
+    "static/js/3.2a5f5932.chunk.js": "/artdecoration-on-reactjs/latest/static/js/3.2a5f5932.chunk.js",
+    "static/js/3.2a5f5932.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/3.2a5f5932.chunk.js.map",
+    "static/js/4.21964b5a.chunk.js": "/artdecoration-on-reactjs/latest/static/js/4.21964b5a.chunk.js",
+    "static/js/4.21964b5a.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/4.21964b5a.chunk.js.map",
+    "static/js/5.962fe79b.chunk.js": "/artdecoration-on-reactjs/latest/static/js/5.962fe79b.chunk.js",
+    "static/js/5.962fe79b.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/5.962fe79b.chunk.js.map",
     "index.html": "/artdecoration-on-reactjs/latest/index.html",
-    "precache-manifest.f841e37db6896b653bd6e8822d3569b8.js": "/artdecoration-on-reactjs/latest/precache-manifest.f841e37db6896b653bd6e8822d3569b8.js",
+    "precache-manifest.debbae13e9b3495ead4316487218e8fd.js": "/artdecoration-on-reactjs/latest/precache-manifest.debbae13e9b3495ead4316487218e8fd.js",
     "service-worker.js": "/artdecoration-on-reactjs/latest/service-worker.js",
-    "static/css/main.39cd8c12.chunk.css.map": "/artdecoration-on-reactjs/latest/static/css/main.39cd8c12.chunk.css.map",
-    "static/js/2.14fd787b.chunk.js.LICENSE.txt": "/artdecoration-on-reactjs/latest/static/js/2.14fd787b.chunk.js.LICENSE.txt",
+    "static/css/main.46a11fb7.chunk.css.map": "/artdecoration-on-reactjs/latest/static/css/main.46a11fb7.chunk.css.map",
+    "static/js/2.3bef544d.chunk.js.LICENSE.txt": "/artdecoration-on-reactjs/latest/static/js/2.3bef544d.chunk.js.LICENSE.txt",
     "static/media/b2.jpg": "/artdecoration-on-reactjs/latest/static/media/b2.d7d4a4ca.jpg",
     "static/media/b3.jpg": "/artdecoration-on-reactjs/latest/static/media/b3.dcf8cb25.jpg",
     "static/media/b4.jpg": "/artdecoration-on-reactjs/latest/static/media/b4.247f9c54.jpg",
@@ -174,9 +174,9 @@
     "static/media/venecianka_1.jpg": "/artdecoration-on-reactjs/latest/static/media/venecianka_1.c1ddcad6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.20f58ef4.js",
-    "static/js/2.14fd787b.chunk.js",
-    "static/css/main.39cd8c12.chunk.css",
-    "static/js/main.8e1bbee3.chunk.js"
+    "static/js/runtime-main.6ea44a7f.js",
+    "static/js/2.3bef544d.chunk.js",
+    "static/css/main.46a11fb7.chunk.css",
+    "static/js/main.0e7a3250.chunk.js"
   ]
 }

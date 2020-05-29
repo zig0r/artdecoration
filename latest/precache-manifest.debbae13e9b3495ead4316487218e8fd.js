@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ce925db9fe836282a93cd9c8a2fe9dea",
+    "revision": "cfe322170c8f9f68bd6ae53347ef9529",
     "url": "/artdecoration-on-reactjs/latest/index.html"
   },
   {
-    "revision": "2db3081080b1bf308082",
-    "url": "/artdecoration-on-reactjs/latest/static/css/main.39cd8c12.chunk.css"
+    "revision": "9665d43f3b038ed08f49",
+    "url": "/artdecoration-on-reactjs/latest/static/css/main.46a11fb7.chunk.css"
   },
   {
-    "revision": "74fb13ab9e90a8045709",
-    "url": "/artdecoration-on-reactjs/latest/static/js/2.14fd787b.chunk.js"
+    "revision": "dcd35b1d0421641731a6",
+    "url": "/artdecoration-on-reactjs/latest/static/js/2.3bef544d.chunk.js"
   },
   {
     "revision": "3cddaf6395ecd7bc0fec7e3043a4b18e",
-    "url": "/artdecoration-on-reactjs/latest/static/js/2.14fd787b.chunk.js.LICENSE.txt"
+    "url": "/artdecoration-on-reactjs/latest/static/js/2.3bef544d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64bab182284cf8d802a0",
-    "url": "/artdecoration-on-reactjs/latest/static/js/3.ed917ae0.chunk.js"
+    "revision": "4b70c3fcd78b5a5484ca",
+    "url": "/artdecoration-on-reactjs/latest/static/js/3.2a5f5932.chunk.js"
   },
   {
-    "revision": "88eeb4607aeca2537af5",
-    "url": "/artdecoration-on-reactjs/latest/static/js/4.04344af1.chunk.js"
+    "revision": "5649a9ee648faf6cacb0",
+    "url": "/artdecoration-on-reactjs/latest/static/js/4.21964b5a.chunk.js"
   },
   {
-    "revision": "5c38419ce45fd63b7bd7",
-    "url": "/artdecoration-on-reactjs/latest/static/js/5.218b416e.chunk.js"
+    "revision": "a3495ca2e4c08866db8a",
+    "url": "/artdecoration-on-reactjs/latest/static/js/5.962fe79b.chunk.js"
   },
   {
-    "revision": "2db3081080b1bf308082",
-    "url": "/artdecoration-on-reactjs/latest/static/js/main.8e1bbee3.chunk.js"
+    "revision": "9665d43f3b038ed08f49",
+    "url": "/artdecoration-on-reactjs/latest/static/js/main.0e7a3250.chunk.js"
   },
   {
-    "revision": "b8e7cad0a421a2b06ec6",
-    "url": "/artdecoration-on-reactjs/latest/static/js/runtime-main.20f58ef4.js"
+    "revision": "d60e20915bf58c0a7b56",
+    "url": "/artdecoration-on-reactjs/latest/static/js/runtime-main.6ea44a7f.js"
   },
   {
     "revision": "d7d4a4cacf293fd1533c689883d6e8a2",
