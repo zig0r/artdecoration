@@ -10,7 +10,7 @@ import * as dataProviders from './dataProviders/index.mjs';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const exec = promisify(childProcess.exec);
 const CONTENT_PATH = `${__dirname}/../src/content`;
-const WEBSITE = process.env.SITEMAP_WEBSITE || 'http://localhost:3000';
+const WEBSITE = (process.env.SITEMAP_WEBSITE || 'http://localhost:3000') + (process.env.PUBLIC_URL || '');
 
 function urlEntry(value) {
   return `

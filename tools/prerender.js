@@ -64,7 +64,7 @@ async function render(options) {
 }
 
 async function listen(server) {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     server.listen(0, () => {
       LOCAL_APP += server.address().port;
       console.log(`started http server on port ${LOCAL_APP}`);
@@ -75,7 +75,10 @@ async function listen(server) {
 
 async function run() {
   const basePath = `${__dirname}/../build`;
-  const app = createServer([{ path: '/', root: basePath }]);
+  const app = createServer([
+    { path: process.env.PUBLIC_URL || '/', root: basePath },
+    { path: '/', root: basePath },
+  ]);
   const server = http.createServer(app);
 
   try {

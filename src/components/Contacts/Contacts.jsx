@@ -4,6 +4,7 @@ import { useState } from 'react';
 import FormInput from '../FormInput/FormInput';
 import s from './Contacts.module.scss';
 import { useI18n } from '../../services/i18n';
+import { sendEmail } from '../../services/mail';
 import Html from '../Html';
 
 const ContactInput = FormInput.scoped({
@@ -21,15 +22,7 @@ export default () => {
   const { messages, t } = useI18n();
   const [values, setValues] = useState(DEFAULT_VALUES);
   const setValue = prop => event => setValues({ ...values, [prop]: event.target.value });
-
-  function submit() {
-    // TODO: send request to server
-    console.log(values)
-    setValues(DEFAULT_VALUES)
-    return new Promise((resolve) => {
-      setTimeout(resolve, 2000);
-    });
-  }
+  const submit = () => sendEmail(values);
 
   return (
     <div className="content">
