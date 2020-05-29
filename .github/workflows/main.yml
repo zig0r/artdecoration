@@ -15,6 +15,9 @@ jobs:
       matrix:
         node:
           - 12
+    env:
+      PUBLIC_URL: /latest
+      DOCS_ROOT: latest
     steps:
     - uses: actions/checkout@v2
     - name: Cache dependencies
@@ -28,12 +31,14 @@ jobs:
           ${{ runner.os }}-build-${{ env.cache-name }}-
           ${{ runner.os }}-build-
           ${{ runner.os }}-
+    - name: Install dependencies
+      run: npm install
+    - name: Build website
+      env:
+        NODE_ENV: production
+      run: REACT_APP_COMMIT_HASH=$(git rev-parse --short "$GITHUB_SHA") npm run build
     - name: Build sitemap
       run: npm run build.sitemap
-    - name: Build website
-      run: |
-        npm install
-        PUBLIC_URL=/latest REACT_APP_COMMIT_HASH=$(git rev-parse --short "$GITHUB_SHA") NODE_ENV=production npm run build
     - name: Pre-render
       run: npm run build.pages
     - name: Deploy
@@ -41,7 +46,6 @@ jobs:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         GITHUB_ACTOR: deploy-bot
       run: |
-        DOCS_ROOT="./latest"
         cat <<- EOF > $HOME/.netrc
           machine github.com
           login $GITHUB_ACTOR
