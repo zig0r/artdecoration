@@ -41,6 +41,7 @@ jobs:
         REACT_APP_MAIL_API_KEY: "${{ secrets.MAIL_API_KEY }}"
         REACT_APP_CONTACT_EMAIL: sergiy.stotskiy@gmail.com # igorzamora@gmail.com
         REACT_APP_MAIL_API_URL: https://api.mailjet.com/v3.1/send
+        REACT_APP_GA_ID: UA-36031394-1
       run: REACT_APP_COMMIT_HASH=$(git rev-parse --short "$GITHUB_SHA") npm run build
     - name: Build sitemap
       run: npm run build.sitemap
