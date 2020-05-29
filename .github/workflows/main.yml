@@ -5,7 +5,9 @@ on:
     branches: [master]
     paths:
       - .github/workflows/main.yml
-      - '{src,tools,public}/**/*'
+      - src/**/*
+      - public/**/*
+      - tools/**/*
       - '*.{js,json}'
 
 jobs:
