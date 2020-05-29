@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      
+    <url>
+      <loc>http://localhost:3000/</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/contacts</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/venetsianka</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/grotto</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/marmorino</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/marselskyi-visk</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/mirazh</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/ottochento</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/papirus</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/persiya</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/sahara</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/stukko</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/travertino</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/imitatsiia-dereva</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/dekorativnyi-kamin</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/khudozhnii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/relefnii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/trafaretnii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/bagheti-koloni-kapiteli</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/service/petrikivskii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/venetsianka</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/grotto</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/marmorino</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/marselskyi-visk</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/mirazh</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/ottochento</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/papirus</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/persiya</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/sahara</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/stukko</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/travertino</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/imitatsiia-dereva</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/dekorativnyi-kamin</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/khudozhnii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/relefnii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/trafaretnii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/bagheti-koloni-kapiteli</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/gallery/petrikivskii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    </urlset>
