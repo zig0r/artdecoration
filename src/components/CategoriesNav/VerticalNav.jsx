@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import s from './CategoriesNav.module.scss';
 
-export default ({ categories, activeParent, selectParent, pathPrefix, useInSitemap }) => (
+export default ({ categories, activeParent, selectParent, pathPrefix }) => (
   <div className={s.menu}>
     {categories.map((item) => (
       <div
@@ -14,7 +14,6 @@ export default ({ categories, activeParent, selectParent, pathPrefix, useInSitem
 
         <nav
           className={`${s.submenu} ${activeParent === item ? s.active : ''}`}
-          data-sitemap={useInSitemap}
         >
           {item.children.map((child) => (
             <div className={s.item} key={child.id}>

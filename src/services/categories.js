@@ -15,9 +15,8 @@ export const fetchCategories = memoize(async (lang) => {
 
 export const useCategories = createHookForList(fetchCategories);
 
-export function useCategory(lang, id) {
-  const { byName } = useCategories(lang);
-
+export function useCategory(id) {
+  const { byName } = useCategories();
   return byName ? byName[id] : null;
 }
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'url-search-params-polyfill';
 import './styles/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'url-search-params-polyfill';
 
 ReactDOM.render(
   <App />,

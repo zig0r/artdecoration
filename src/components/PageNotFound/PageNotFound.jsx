@@ -1,17 +1,14 @@
 import React from 'react';
-import {
-  FormattedMessage as T,
-  FormattedHTMLMessage as Thtml
-} from 'react-intl';
+import Html from '../Html';
+import { useI18n } from '../../services/i18n';
 
-export default () => (
-  <div className="content">
-    <h3 className="container-style">
-      <T id="notfound.name" />
-    </h3>
+export default () => {
+  const { t } = useI18n();
 
-    <div className="markdown">
-      <Thtml id="notfound.content" />
+  return (
+    <div className="content">
+      <h3 className="container-style">{t('notfound.name')}</h3>
+      <Html className="markdown" value={t('notfound.content')} />
     </div>
-  </div>
-);
+  );
+};

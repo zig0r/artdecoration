@@ -1,16 +1,17 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { FormattedMessage as T, useIntl } from 'react-intl';
 import { useCategories, useCategory, useCategoriesRedirect } from '../../services/categories';
+import { useI18n } from '../../services/i18n';
 import CategoriesNav from '../CategoriesNav/CategoriesNav';
 import CategorySwiper from './ServicesSwiper';
 import s from './Services.module.scss';
+import Html from '../Html';
 
 export default () => {
-  const intl = useIntl();
-  const params = useParams()
-  const category = useCategory(intl.locale, params.id);
-  const { categories } = useCategories(intl.locale);
+  const params = useParams();
+  const { t } = useI18n();
+  const category = useCategory(params.id);
+  const { categories } = useCategories();
   const redirect = useCategoriesRedirect(categories, params);
 
   if (redirect) {
@@ -23,15 +24,13 @@ export default () => {
 
   return (
     <div className="content">
-      <h3 className="container-style">
-        <T id="services.name" />
-      </h3>
+      <h3 className="container-style">{t('services.name')}</h3>
       <div className={s.serviceBlock}>
         <div className={s.menu}>
-          <CategoriesNav activeId={params.id} pathPrefix="service" useInSitemap />
+          <CategoriesNav activeId={params.id} pathPrefix="service" />
         </div>
         <div className={s.content}>
-          <div className="markdown" dangerouslySetInnerHTML={{ __html: category.description }}></div>
+          <Html className="markdown" value={category.description} />
         </div>
       </div>
       <CategorySwiper name={category.id} key={category.id} />

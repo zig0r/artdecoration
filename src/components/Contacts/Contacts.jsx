@@ -1,13 +1,10 @@
 import React from 'react';
 import { Form } from 'react-html5-form';
+import { useState } from 'react';
 import FormInput from '../FormInput/FormInput';
 import s from './Contacts.module.scss';
-import {
-  FormattedMessage as T,
-  FormattedHTMLMessage as Thtml,
-  useIntl
-} from 'react-intl';
-import { useState } from 'react';
+import { useI18n } from '../../services/i18n';
+import Html from '../Html';
 
 const ContactInput = FormInput.scoped({
   scope: 'contact.form',
@@ -21,7 +18,7 @@ const DEFAULT_VALUES = {
 };
 
 export default () => {
-  const intl = useIntl();
+  const { messages, t } = useI18n();
   const [values, setValues] = useState(DEFAULT_VALUES);
   const setValue = prop => event => setValues({ ...values, [prop]: event.target.value });
 
@@ -36,13 +33,10 @@ export default () => {
 
   return (
     <div className="content">
-      <h3 className="container-style">
-        <T id="contact.name" />
-      </h3>
-
+      <h3 className="container-style">{t('contact.name')}</h3>
       <article className={s.container}>
         <div className={s.block}>
-          <h3><T id="contact.form.title" />:</h3>
+          <h3>{t('contact.form.title')}:</h3>
 
           <Form className={s.form} onSubmit={submit}>
             {({ pristine, submitting }) => (<>
@@ -69,21 +63,19 @@ export default () => {
                 onChange={setValue('message')}
               />
               <button type="submit" className={s.btn} disabled={pristine || submitting}>
-                <T id="contact.form.send" />
+                {t('contact.form.send')}
               </button>
             </>)}
           </Form>
         </div>
 
         <div className={s.block}>
-          <h3><T id="contact.phone" />:</h3>
+          <h3>{t('contact.phone')}:</h3>
           <div className={s.phones}>
-            {intl.messages.raw.menu.phones
-              .map((phone, index) => <p key={index} dangerouslySetInnerHTML={{ __html: phone }} />)}
+            {messages && messages.menu.phones
+              .map((phone, index) => <Html key={index} tag="p" value={phone} />)}
           </div>
-          <div className={s.details}>
-            <Thtml id="contact.details" />
-          </div>
+          <Html className={s.details} value={t('contact.details')} />
         </div>
       </article>
     </div>

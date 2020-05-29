@@ -1,9 +1,9 @@
 import React from 'react';
-import { InputGroup } from "react-html5-form";
-import { FormattedMessage as T, useIntl } from 'react-intl';
+import { InputGroup } from 'react-html5-form';
+import { useI18n } from '../../services/i18n';
 
 const FormInput = ({ name, className, scope, controlsClassName, type = 'text', ...validation }) => {
-  const intl = useIntl();
+  const { t } = useI18n();
 
   return (
     <InputGroup
@@ -17,7 +17,7 @@ const FormInput = ({ name, className, scope, controlsClassName, type = 'text', .
       }}>
       {({ error }) => (<>
         <div className={error ? 'has-error' : ''}>
-          <label><T id={`${scope}.${name}`} />:</label>
+          <label>{t(`${scope}.${name}`)}:</label>
           <div>
             {type === 'textarea' ?
               <textarea
@@ -34,7 +34,7 @@ const FormInput = ({ name, className, scope, controlsClassName, type = 'text', .
             }
           </div>
         </div>
-        {error && <div className="error">{intl.formatMessage({ id: error })}</div>}
+        {error && <div className="error">{t(error)}</div>}
       </>)}
     </InputGroup >
   );

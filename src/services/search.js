@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import memoize from 'lodash/memoize';
 import { fetchCategories } from './categories';
+import { useI18n } from './i18n';
 import searchOptions from '../config/search';
 import history from './history';
 
@@ -34,8 +35,9 @@ function markHints(result) {
   }, {});
 }
 
-export function useSearchResults(lang, query) {
+export function useSearchResults(query) {
   const [results, setResults] = useState([]);
+  const { lang } = useI18n();
 
   useEffect(() => {
     Promise.all([fetchCategories(lang), getSearchInstance(lang)])
