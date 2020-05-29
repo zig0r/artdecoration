@@ -39,13 +39,14 @@ prices:
     та побажання клієнта.
 
     Для отримання більш детальної інформації вартості наших послуг ви
-    можете звернутись за тел. **(067) 339-05-12**, чи надіслати запит на
-    [info@artdecoration.com.ua](mailto:info@artdecoration.com.ua)
+    можете звернутись за тел. **(067) 339-05-12**, чи надіслати запит через форму зворотнього зв'язку
 footer:
   describe: !md |
     Творча майстерня «**Art decoration**» © 2012 - {year}\
-    Пишіть нам: [info@artdecoration.com.ua](mailto:info@artdecoration.com.ua)
+    Пишіть нам через форму зворотнього зв'язку
   share: Поділитися
+  shareButtons: |
+    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fartdecoration.com.ua&send=false&layout=button_count&width=150&show_faces=true&font&colorscheme=light&action=recommend&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>
   placeholder: Хочу знайти!
 validation:
   valueMissing: Обов'язкове поле

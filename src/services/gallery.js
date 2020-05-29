@@ -6,7 +6,6 @@ export const categoriesGallery = requireCategoryImage.keys().reduce((images, pat
   images[type].push(requireCategoryImage(path));
   return images;
 }, {});
-console.log(categoriesGallery)
 
 const requireMainGallery = require.context('../img/mainGallery', true, /\.(jpe?g|png|svg)$/);
 

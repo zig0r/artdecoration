@@ -16,8 +16,10 @@ export default (props) => {
 
   return (
     <footer className={`container-style top-only ${props.className} ${s.footer}`}>
-      <Html className="markdown" value={t('footer.describe', { year: currentYear })} />
-      <div>{t('footer.share')}</div>
+      <div className={s.details}>
+        <Html className="markdown" value={t('footer.describe', { year: currentYear })} />
+      </div>
+      <div>{t('footer.share')}: <Html value={t('footer.shareButtons')} /></div>
       <form onSubmit={submitAndReset}>
         <input name="q" className={s.search} placeholder={t('footer.placeholder')} />
       </form>
