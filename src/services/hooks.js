@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useIntl } from 'react-intl';
-import memoize from 'lodash/memoize';
 
-function createHookForList(runEffect) {
+export function createHookForList(runEffect) {
   return (locale) => {
     const [items, setItems] = useState({});
     useEffect(() => {
@@ -11,39 +9,4 @@ function createHookForList(runEffect) {
 
     return items;
   };
-}
-
-function indexifyCategories(categories, parent = null) {
-  const byName = {};
-
-  categories.forEach((category) => {
-    byName[category.name] = category;
-    category.parent = parent;
-
-    if (category.children) {
-      const children = indexifyCategories(category.children, category);
-      Object.assign(byName, children);
-    }
-  });
-
-  return byName;
-}
-
-export const fetchCategories = memoize(async (lang) => {
-  const module = await import(`../content/categories.${lang}.yml`);
-
-  return {
-    categories: module.categories,
-    byName: indexifyCategories(module.categories),
-  };
-});
-
-export const useCategories = createHookForList(fetchCategories);
-export const useQuotes = createHookForList(memoize(lang => import(`../content/quotes.${lang}.yml`)))
-
-export function useCategory(id) {
-  const intl = useIntl();
-  const { byName } = useCategories(intl.locale);
-
-  return byName ? byName[id] : null;
 }

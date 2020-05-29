@@ -2,13 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import s from './CategoriesNav.module.scss';
 
-export default ({ categories, activeParent, selectParent, pathPrefix }) => (
+export default ({ categories, activeParent, selectParent, pathPrefix, useInSitemap }) => (
   <div className={s.menu}>
     <div className={s.container}>
       {categories.map((item) => (
         <div
           className={`${s.menuItem} ${activeParent === item ? s.active : ''}`}
-          key={item.name}
+          key={item.id}
           onClick={() => selectParent(item)}
         >
           <button type="button" className={`${s.title} btn`}>{item.title}</button>
@@ -16,18 +16,22 @@ export default ({ categories, activeParent, selectParent, pathPrefix }) => (
       ))}
     </div>
     {categories.map((item) => (
-      <div className={`${s.submenu} ${activeParent === item ? s.active : ''}`} key={item.name}>
+      <nav
+        key={item.id}
+        className={`${s.submenu} ${activeParent === item ? s.active : ''}`}
+        data-sitemap={useInSitemap}
+      >
         {item.children.map((child) => (
           <NavLink
-            to={`/${pathPrefix}/${child.name}`}
-            key={child.name}
+            to={`/${pathPrefix}/${child.id}`}
+            key={child.id}
             className={s.inlineItem}
             activeClassName={s.active}
           >
             {child.title}
           </NavLink>
         ))}
-      </div>
+      </nav>
     ))}
   </div>
 )

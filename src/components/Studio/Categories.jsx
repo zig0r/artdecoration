@@ -18,18 +18,18 @@ export default class Categories extends React.PureComponent {
 
   render() {
     const categories = this.props.items.map((item) => {
-      const selectedChild = this.state.selected[item.name] || item.children[0];
-      return <div key={item.name} className={s.block}>
+      const selectedChild = this.state.selected[item.id] || item.children[0];
+      return <div key={item.id} className={s.block}>
         <div>
           <h2>{item.title}</h2>
           <ul>{item.children.map((child) => (
-            <li key={child.name} onMouseOver={() => this.setSelectedChild(item.name, child)}>
-              <Link to={`/service/${child.name}`}>{child.title}</Link>
+            <li key={child.id} onMouseOver={() => this.setSelectedChild(item.id, child)}>
+              <Link to={`/service/${child.id}`}>{child.title}</Link>
             </li>
           ))}</ul>
         </div>
         <div>
-          <img alt="decor" src={require(`@/img/categories/${selectedChild.name}.jpg`)} width="224" />
+          <img alt="decor" src={require(`@/img/categories/${selectedChild.id}.jpg`)} width="224" />
         </div>
       </div>
     });

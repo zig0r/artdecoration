@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useIntl } from 'react-intl';
-import { useCategories } from '../../services/hooks';
+import { useCategories } from '../../services/categories';
 import VerticalNav from './VerticalNav';
 import HorizontalNav from './HorizontalNav';
 
@@ -18,6 +18,7 @@ export default (props) => {
   const Nav = props.horizontal ? HorizontalNav : VerticalNav;
 
   return <Nav
+    useInSitemap={props.useInSitemap}
     categories={categories}
     selectParent={selectParent}
     activeParent={activeParent}

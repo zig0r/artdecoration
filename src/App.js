@@ -20,7 +20,6 @@ const pages = {
   Services,
   Gallery,
   Contacts,
-  SearchPage,
 };
 const defaultLocale = 'uk';
 const appMessages = flattenObject(messages);
@@ -32,7 +31,7 @@ export default () => {
     <Router history={history}>
       <IntlProvider locale={defaultLocale} messages={appMessages}>
         <Header />
-        <div class="content-wrapper">
+        <div className="content-wrapper">
           <Switch>
             {routesConfig.routes.map((route) => (
               <Route
@@ -42,6 +41,7 @@ export default () => {
                 component={pages[route.component]}
               />
             ))}
+            <Route path="/search" component={SearchPage} />
             <Route path="*" component={PageNotFound} />
           </Switch>
           <Footer />

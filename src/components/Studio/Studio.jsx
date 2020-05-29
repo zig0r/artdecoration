@@ -10,7 +10,8 @@ import s from './Studio.module.scss';
 import './Quotes.swiper.scss';
 import ImageSwiper from '../ImageSwiper/ImageSwiper';
 import Categories from './Categories';
-import { useCategories, useQuotes } from '../../services/hooks';
+import { useCategories } from '../../services/categories';
+import { useQuotes } from '../../services/quotes';
 
 export default () => {
   const intl = useIntl();

@@ -1,61 +1,61 @@
 categories:
-- name: decor
+- id: decor
   title: Декоративні штукатурки
   children:
-  - name: venetsianka
+  - id: venetsianka
     title: Венеціанка
     description: !md "@include: categories/venetsianka.uk.md"
-  - name: grotto
+  - id: grotto
     title: Гротто
     description: !md "@include: categories/grotto.uk.md"
-  - name: marmorino
+  - id: marmorino
     title: Марморіно
     description: !md "@include: categories/marmorino.uk.md"
-  - name: marselskyi-visk
+  - id: marselskyi-visk
     title: Марсельський віск
     description: !md "@include: categories/marselskyi-visk.uk.md"
-  - name: mirazh
+  - id: mirazh
     title: Міраж
     description: !md "@include: categories/mirazh.uk.md"
-  - name: ottochento
+  - id: ottochento
     title: Отточенто
     description: !md "@include: categories/ottochento.uk.md"
-  - name: papirus
+  - id: papirus
     title: Папірус
     description: !md "@include: categories/papirus.uk.md"
-  - name: persiya
+  - id: persiya
     title: Персія
     description: !md "@include: categories/persiya.uk.md"
-  - name: sahara
+  - id: sahara
     title: Сахара
     description: !md "@include: categories/sahara.uk.md"
-  - name: stukko
+  - id: stukko
     title: Стукко
     description: !md "@include: categories/stukko.uk.md"
-  - name: travertino
+  - id: travertino
     title: Травертіно
     description: !md "@include: categories/travertino.uk.md"
-  - name: imitatsiia-dereva
+  - id: imitatsiia-dereva
     title: Імітація дерева
     description: !md "@include: categories/imitatsiia-dereva.uk.md"
-  - name: dekorativnyi-kamin
+  - id: dekorativnyi-kamin
     title: Декоративний камінь
     description: !md "@include: categories/dekorativnyi-kamin.uk.md"
-- name: rospis
+- id: rospis
   title: Розпис стін, фрески
   children:
-  - name: khudozhnii-rozpis
+  - id: khudozhnii-rozpis
     title: Художній розпис
     description: !md "@include: categories/khudozhnii-rozpis.uk.md"
-  - name: relefnii-rozpis
+  - id: relefnii-rozpis
     title: Рельєфний розпис
     description: !md "@include: categories/relefnii-rozpis.uk.md"
-  - name: trafaretnii-rozpis
+  - id: trafaretnii-rozpis
     title: Трафаретний розпис
     description: !md "@include: categories/trafaretnii-rozpis.uk.md"
-  - name: bagheti-koloni-kapiteli
+  - id: bagheti-koloni-kapiteli
     title: Багети, колони, капітелі
     description: !md "@include: categories/bagheti-koloni-kapiteli.uk.md"
-  - name: petrikivskii-rozpis
+  - id: petrikivskii-rozpis
     title: Петриківський розпис
     description: !md "@include: categories/petrikivskii-rozpis.uk.md"

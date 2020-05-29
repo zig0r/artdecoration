@@ -2,11 +2,28 @@ routes:
   - exact: true
     path: ['/', '/main']
     component: Studio
+    sitemap:
+      changefreq: monthly
+      priority: 1
+      lastmod:
+        - categories.uk.yml
+        - uk.yml
   - path: /service/:id?
     component: Services
+    provider: categories
+    sitemap:
+      changefreq: monthly
+      priority: 1
   - path: /gallery/:id?
     component: Gallery
+    provider: categories
+    sitemap:
+      changefreq: yearly
+      priority: 0.7
   - path: /contacts
     component: Contacts
-  - path: /search
-    component: SearchPage
+    sitemap:
+      changefreq: monthly
+      priority: 1
+      lastmod:
+        - uk.yml

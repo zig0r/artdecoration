@@ -2,7 +2,7 @@ import MiniSearch from 'minisearch';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import memoize from 'lodash/memoize';
-import { fetchCategories } from './hooks';
+import { fetchCategories } from './categories';
 import searchOptions from '../config/search';
 import history from './history';
 

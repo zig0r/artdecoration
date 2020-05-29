@@ -12,7 +12,7 @@ const Header = () => {
         <NavLink exact to="/" className={s.logo}>
           <T id="name" />
         </NavLink>
-        <div className={s.nav}>
+        <nav className={s.nav} data-sitemap>
           <NavLink exact to="/" className={s.item}>
             <T id="menu.studio" />
           </NavLink>
@@ -30,9 +30,9 @@ const Header = () => {
               .map((phone, index) => <div key={index} dangerouslySetInnerHTML={{ __html: phone }} />)}
           </div>
           <div className={s.brush}></div>
-        </div>
-      </div >
-    </header >
+        </nav>
+      </div>
+    </header>
   )
 }
 
