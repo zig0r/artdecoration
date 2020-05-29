@@ -18,7 +18,7 @@ jobs:
         node:
           - 12
     env:
-      PUBLIC_URL: /latest
+      PUBLIC_URL: /artdecoration-on-reactjs/latest
       DOCS_ROOT: latest
     steps:
     - uses: actions/checkout@v2
