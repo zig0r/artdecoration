@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import CategoriesNav from '../CategoriesNav/CategoriesNav';
-import CategorySwiper from '../Services/CategorySwiper';
+import CategorySwiper from '../CategorySwiper';
+import Meta from '../Meta';
 import { useCategories, useCategory, useCategoriesRedirect } from '../../services/categories';
 import { useI18n } from '../../services/i18n';
 
@@ -22,6 +23,7 @@ export default () => {
 
   return (
     <div className="content">
+      <Meta use={category} />
       <h3 className="container-style">{t('gallery.name')}</h3>
       <CategoriesNav activeId={params.id} pathPrefix="gallery" horizontal />
       <CategorySwiper name={category.id} key={category.id} />

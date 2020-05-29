@@ -1,7 +1,7 @@
 routes:
   - exact: true
     path: ['/', '/main']
-    component: Studio
+    component: StudioPage
     sitemap:
       changefreq: monthly
       priority: 1
@@ -9,19 +9,19 @@ routes:
         - categories.uk.yml
         - app.uk.yml
   - path: /service/:id?
-    component: Services
+    component: ServicesPage
     provider: categories
     sitemap:
       changefreq: monthly
       priority: 1
   - path: /gallery/:id?
-    component: Gallery
+    component: GalleryPage
     provider: categories
     sitemap:
       changefreq: yearly
       priority: 0.7
   - path: /contacts
-    component: Contacts
+    component: ContactsPage
     sitemap:
       changefreq: monthly
       priority: 1

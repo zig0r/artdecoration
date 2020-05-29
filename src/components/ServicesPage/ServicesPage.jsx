@@ -3,9 +3,10 @@ import { useParams } from 'react-router-dom';
 import { useCategories, useCategory, useCategoriesRedirect } from '../../services/categories';
 import { useI18n } from '../../services/i18n';
 import CategoriesNav from '../CategoriesNav/CategoriesNav';
-import CategorySwiper from './CategorySwiper';
+import CategorySwiper from '../CategorySwiper';
 import s from './Services.module.scss';
 import Html from '../Html';
+import Meta from '../Meta';
 
 export default () => {
   const params = useParams();
@@ -24,6 +25,7 @@ export default () => {
 
   return (
     <div className="content">
+      <Meta use={category} />
       <h3 className="container-style">{t('services.name')}</h3>
       <div className={s.serviceBlock}>
         <div className={s.menu}>

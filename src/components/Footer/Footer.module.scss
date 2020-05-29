@@ -28,3 +28,11 @@
 .details {
   text-align: left;
 }
+
+.share {
+  display: flex;
+
+  > * {
+    margin-left: 10px;
+  }
+}

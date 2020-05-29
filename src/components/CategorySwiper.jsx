@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Swiper from 'react-id-swiper';
-import { categoriesGallery } from '../../services/gallery';
+import { categoriesGallery } from '../services/gallery';
 
 const mainSwiperOptions = {
   lazy: true,

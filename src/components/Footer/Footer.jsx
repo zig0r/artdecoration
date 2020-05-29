@@ -19,7 +19,7 @@ export default (props) => {
       <div className={s.details}>
         <Html className="markdown" value={t('footer.describe', { year: currentYear })} />
       </div>
-      <div>{t('footer.share')}: <Html value={t('footer.shareButtons')} /></div>
+      <div className={s.share}>{t('footer.share')}: <Html value={t('footer.shareButtons')} /></div>
       <form onSubmit={submitAndReset}>
         <input name="q" className={s.search} placeholder={t('footer.placeholder')} />
       </form>

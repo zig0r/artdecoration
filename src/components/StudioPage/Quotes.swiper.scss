@@ -21,10 +21,19 @@
     margin: 0 auto;
   }
 
+  .swiper-container {
+    margin-top: 20px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    height: 135px;
+  }
+
   .swiper-wrapper {
     color: #fff;
     line-height: 1;
-    margin-top: 20px;
     font-size: $fs-normal;
     font-style: italic;
     text-shadow: #000 2px 2px 2px;

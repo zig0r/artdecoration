@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import s from '../Studio/Studio.module.scss';
+import s from './Studio.module.scss';
 
 export default class Categories extends React.PureComponent {
   state = {

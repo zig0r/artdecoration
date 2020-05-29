@@ -2,10 +2,11 @@ import React from 'react';
 import { Form } from 'react-html5-form';
 import { useState } from 'react';
 import FormInput from '../FormInput/FormInput';
-import s from './Contacts.module.scss';
+import s from './ContactsPage.module.scss';
 import { useI18n } from '../../services/i18n';
 import { sendEmail } from '../../services/mail';
 import Html from '../Html';
+import Meta from '../Meta';
 
 const ContactInput = FormInput.scoped({
   scope: 'contact.form',
@@ -26,6 +27,7 @@ export default () => {
 
   return (
     <div className="content">
+      <Meta name="contact" />
       <h3 className="container-style">{t('contact.name')}</h3>
       <article className={s.container}>
         <div className={s.block}>

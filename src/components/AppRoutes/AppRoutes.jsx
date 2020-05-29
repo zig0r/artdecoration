@@ -1,18 +1,18 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import routesConfig from '../../config/routes.yml';
-import Studio from '../Studio/Studio';
-import Services from '../Services/Services';
-import Gallery from '../Gallery/Gallery';
-import Contacts from '../Contacts/Contacts';
+import StudioPage from '../StudioPage/StudioPage';
+import ServicesPage from '../ServicesPage/ServicesPage';
+import GalleryPage from '../GalleryPage/GalleryPage';
+import ContactsPage from '../ContactsPage/ContactsPage';
 import SearchPage from '../SearchPage/SearchPage';
 import PageNotFound from '../PageNotFound/PageNotFound';
 
 const pages = {
-  Studio,
-  Services,
-  Gallery,
-  Contacts,
+  StudioPage,
+  ServicesPage,
+  GalleryPage,
+  ContactsPage,
 };
 
 export default () => (

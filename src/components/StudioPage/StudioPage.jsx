@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import MainSwiper from '../MainSwiper/MainSwiper';
 import Categories from './Categories';
 import Html from '../Html';
+import Meta from '../Meta';
 import { useCategories } from '../../services/categories';
 import { useQuotes } from '../../services/quotes';
 import { useI18n } from '../../services/i18n';
@@ -55,6 +56,7 @@ export default () => {
 
   return (
     <>
+      <Meta name="studio" />
       <TopSwiper />
       <div className="content-wrapper">
         <div className="content">
