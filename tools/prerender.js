@@ -56,13 +56,11 @@ async function render(options) {
     const workers = await Promise.all(createWorkers);
     const jobs = workers.map(w => renderPage(w, options));
 
-    await Promise.allSettled(jobs);
+    await Promise.all(jobs);
     await Promise.allSettled(workers.map(w => w.page.close()));
   } finally {
     await browser.close();
   }
-
-  console.log('finished rendering?')
 }
 
 async function listen(server) {
