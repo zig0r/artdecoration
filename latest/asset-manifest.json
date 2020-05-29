@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/artdecoration-on-reactjs/latest/static/css/main.867833c9.chunk.css",
-    "main.js": "/artdecoration-on-reactjs/latest/static/js/main.935a82c6.chunk.js",
-    "main.js.map": "/artdecoration-on-reactjs/latest/static/js/main.935a82c6.chunk.js.map",
+    "main.js": "/artdecoration-on-reactjs/latest/static/js/main.5168ec16.chunk.js",
+    "main.js.map": "/artdecoration-on-reactjs/latest/static/js/main.5168ec16.chunk.js.map",
     "runtime-main.js": "/artdecoration-on-reactjs/latest/static/js/runtime-main.f4852cfa.js",
     "runtime-main.js.map": "/artdecoration-on-reactjs/latest/static/js/runtime-main.f4852cfa.js.map",
     "static/js/2.c4ed59c8.chunk.js": "/artdecoration-on-reactjs/latest/static/js/2.c4ed59c8.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/5.55e456c9.chunk.js": "/artdecoration-on-reactjs/latest/static/js/5.55e456c9.chunk.js",
     "static/js/5.55e456c9.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/5.55e456c9.chunk.js.map",
     "index.html": "/artdecoration-on-reactjs/latest/index.html",
-    "precache-manifest.1c41c544b4b319f7d3f673720275a60c.js": "/artdecoration-on-reactjs/latest/precache-manifest.1c41c544b4b319f7d3f673720275a60c.js",
+    "precache-manifest.4a93b9126705e55ae0db1c87f906534f.js": "/artdecoration-on-reactjs/latest/precache-manifest.4a93b9126705e55ae0db1c87f906534f.js",
     "service-worker.js": "/artdecoration-on-reactjs/latest/service-worker.js",
     "static/css/main.867833c9.chunk.css.map": "/artdecoration-on-reactjs/latest/static/css/main.867833c9.chunk.css.map",
     "static/js/2.c4ed59c8.chunk.js.LICENSE.txt": "/artdecoration-on-reactjs/latest/static/js/2.c4ed59c8.chunk.js.LICENSE.txt",
@@ -177,6 +177,6 @@
     "static/js/runtime-main.f4852cfa.js",
     "static/js/2.c4ed59c8.chunk.js",
     "static/css/main.867833c9.chunk.css",
-    "static/js/main.935a82c6.chunk.js"
+    "static/js/main.5168ec16.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1a8cdd7a9bbef426074f98a11d03522",
+    "revision": "08c3075b0e8e9aa9f9d8cf8c118942a8",
     "url": "/artdecoration-on-reactjs/latest/index.html"
   },
   {
-    "revision": "08b3456c66fe88204e34",
+    "revision": "09a6839c266c5065ed48",
     "url": "/artdecoration-on-reactjs/latest/static/css/main.867833c9.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/artdecoration-on-reactjs/latest/static/js/5.55e456c9.chunk.js"
   },
   {
-    "revision": "08b3456c66fe88204e34",
-    "url": "/artdecoration-on-reactjs/latest/static/js/main.935a82c6.chunk.js"
+    "revision": "09a6839c266c5065ed48",
+    "url": "/artdecoration-on-reactjs/latest/static/js/main.5168ec16.chunk.js"
   },
   {
     "revision": "3c86b5e4985bacd0df9c",
