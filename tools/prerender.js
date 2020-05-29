@@ -61,6 +61,8 @@ async function render(options) {
   } finally {
     await browser.close();
   }
+
+  console.log('finished rendering?')
 }
 
 async function listen(server) {
