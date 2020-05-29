@@ -7,7 +7,7 @@ routes:
       priority: 1
       lastmod:
         - categories.uk.yml
-        - uk.yml
+        - app.uk.yml
   - path: /service/:id?
     component: Services
     provider: categories
@@ -26,4 +26,4 @@ routes:
       changefreq: monthly
       priority: 1
       lastmod:
-        - uk.yml
+        - app.uk.yml

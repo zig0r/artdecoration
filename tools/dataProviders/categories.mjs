@@ -17,7 +17,7 @@ export default async ({ contentPath }) => {
 
       return categories.concat({
         doc: category,
-        lastmod: [`categories/${category.id}.uk.md`]
+        lastmod: [`categories/${category.id}/uk.md`]
       });
     }, []);
 };
