@@ -31,7 +31,8 @@
     "build.sitemap": "node --experimental-modules tools/sitemap.mjs",
     "build.pages": "node tools/prerender.js",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --ext .js,.jsx src tools"
   },
   "eslintConfig": {
     "extends": "react-app"
