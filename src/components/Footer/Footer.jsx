@@ -15,7 +15,7 @@ export default (props) => {
   };
 
   return (
-    <footer className={`container-style top-only ${s.footer} ${props.className}`}>
+    <footer className={`container-style top-only ${props.className} ${s.footer}`}>
       <Html className="markdown" value={t('footer.describe', { year: currentYear })} />
       <div>{t('footer.share')}</div>
       <form onSubmit={submitAndReset}>
