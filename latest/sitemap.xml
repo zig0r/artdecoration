@@ -2,7 +2,7 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       
     <url>
-      <loc>http://localhost:3000/service/venetsianka</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -10,7 +10,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/grotto</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/contacts</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -18,7 +18,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/marmorino</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/venetsianka</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -26,7 +26,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/marselskyi-visk</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/grotto</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -34,7 +34,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/mirazh</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/marmorino</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -42,7 +42,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/ottochento</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/marselskyi-visk</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -50,7 +50,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/papirus</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/mirazh</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -58,7 +58,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/persiya</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/ottochento</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -66,7 +66,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/sahara</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/papirus</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -74,7 +74,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/stukko</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/persiya</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -82,7 +82,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/travertino</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/sahara</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -90,7 +90,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/imitatsiia-dereva</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/stukko</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -98,7 +98,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/dekorativnyi-kamin</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/travertino</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -106,7 +106,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/khudozhnii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/imitatsiia-dereva</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -114,7 +114,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/relefnii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/dekorativnyi-kamin</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -122,7 +122,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/trafaretnii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/khudozhnii-rozpis</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -130,7 +130,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/bagheti-koloni-kapiteli</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/relefnii-rozpis</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -138,7 +138,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/service/petrikivskii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/trafaretnii-rozpis</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -146,7 +146,23 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/venetsianka</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/bagheti-koloni-kapiteli</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/service/petrikivskii-rozpis</loc>
+      <lastmod>2020-05-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/venetsianka</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -154,7 +170,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/grotto</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/grotto</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -162,7 +178,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/marmorino</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/marmorino</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -170,7 +186,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/marselskyi-visk</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/marselskyi-visk</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -178,7 +194,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/mirazh</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/mirazh</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -186,7 +202,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/ottochento</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/ottochento</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -194,7 +210,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/papirus</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/papirus</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -202,7 +218,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/persiya</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/persiya</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -210,7 +226,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/sahara</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/sahara</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -218,7 +234,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/stukko</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/stukko</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -226,7 +242,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/travertino</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/travertino</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -234,7 +250,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/imitatsiia-dereva</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/imitatsiia-dereva</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -242,7 +258,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/dekorativnyi-kamin</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/dekorativnyi-kamin</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -250,7 +266,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/khudozhnii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/khudozhnii-rozpis</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -258,7 +274,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/relefnii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/relefnii-rozpis</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -266,7 +282,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/trafaretnii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/trafaretnii-rozpis</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -274,7 +290,7 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/bagheti-koloni-kapiteli</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/bagheti-koloni-kapiteli</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
@@ -282,26 +298,10 @@
   
 
     <url>
-      <loc>http://localhost:3000/gallery/petrikivskii-rozpis</loc>
+      <loc>http://localhost:3000/artdecoration-on-reactjs/latest/gallery/petrikivskii-rozpis</loc>
       <lastmod>2020-05-29</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
-    </url>
-  
-
-    <url>
-      <loc>http://localhost:3000/</loc>
-      <lastmod>2020-05-29</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1</priority>
-    </url>
-  
-
-    <url>
-      <loc>http://localhost:3000/contacts</loc>
-      <lastmod>2020-05-29</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1</priority>
     </url>
   
     </urlset>
