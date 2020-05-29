@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08c3075b0e8e9aa9f9d8cf8c118942a8",
+    "revision": "26c2bb03e9557b3f0975d2e9193d7ec4",
     "url": "/artdecoration-on-reactjs/latest/index.html"
   },
   {
-    "revision": "09a6839c266c5065ed48",
-    "url": "/artdecoration-on-reactjs/latest/static/css/main.867833c9.chunk.css"
+    "revision": "520ed256c961e6c878f1",
+    "url": "/artdecoration-on-reactjs/latest/static/css/main.39cd8c12.chunk.css"
   },
   {
-    "revision": "4e24ec570d57a1d5a4c6",
-    "url": "/artdecoration-on-reactjs/latest/static/js/2.c4ed59c8.chunk.js"
+    "revision": "07799346d05ab8dcad33",
+    "url": "/artdecoration-on-reactjs/latest/static/js/2.34f3048e.chunk.js"
   },
   {
     "revision": "3cddaf6395ecd7bc0fec7e3043a4b18e",
-    "url": "/artdecoration-on-reactjs/latest/static/js/2.c4ed59c8.chunk.js.LICENSE.txt"
+    "url": "/artdecoration-on-reactjs/latest/static/js/2.34f3048e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c782df775afcbb15c863",
-    "url": "/artdecoration-on-reactjs/latest/static/js/3.b1d73835.chunk.js"
+    "revision": "8cad1696c488ae74af94",
+    "url": "/artdecoration-on-reactjs/latest/static/js/3.43025c4d.chunk.js"
   },
   {
     "revision": "747b341bc7911c7aceb0",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/artdecoration-on-reactjs/latest/static/js/5.55e456c9.chunk.js"
   },
   {
-    "revision": "09a6839c266c5065ed48",
-    "url": "/artdecoration-on-reactjs/latest/static/js/main.5168ec16.chunk.js"
+    "revision": "520ed256c961e6c878f1",
+    "url": "/artdecoration-on-reactjs/latest/static/js/main.5dd73eeb.chunk.js"
   },
   {
-    "revision": "3c86b5e4985bacd0df9c",
-    "url": "/artdecoration-on-reactjs/latest/static/js/runtime-main.f4852cfa.js"
+    "revision": "efb13aab84c386c6d4c8",
+    "url": "/artdecoration-on-reactjs/latest/static/js/runtime-main.a6e90afd.js"
   },
   {
     "revision": "d7d4a4cacf293fd1533c689883d6e8a2",

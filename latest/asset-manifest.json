@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/artdecoration-on-reactjs/latest/static/css/main.867833c9.chunk.css",
-    "main.js": "/artdecoration-on-reactjs/latest/static/js/main.5168ec16.chunk.js",
-    "main.js.map": "/artdecoration-on-reactjs/latest/static/js/main.5168ec16.chunk.js.map",
-    "runtime-main.js": "/artdecoration-on-reactjs/latest/static/js/runtime-main.f4852cfa.js",
-    "runtime-main.js.map": "/artdecoration-on-reactjs/latest/static/js/runtime-main.f4852cfa.js.map",
-    "static/js/2.c4ed59c8.chunk.js": "/artdecoration-on-reactjs/latest/static/js/2.c4ed59c8.chunk.js",
-    "static/js/2.c4ed59c8.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/2.c4ed59c8.chunk.js.map",
-    "static/js/3.b1d73835.chunk.js": "/artdecoration-on-reactjs/latest/static/js/3.b1d73835.chunk.js",
-    "static/js/3.b1d73835.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/3.b1d73835.chunk.js.map",
+    "main.css": "/artdecoration-on-reactjs/latest/static/css/main.39cd8c12.chunk.css",
+    "main.js": "/artdecoration-on-reactjs/latest/static/js/main.5dd73eeb.chunk.js",
+    "main.js.map": "/artdecoration-on-reactjs/latest/static/js/main.5dd73eeb.chunk.js.map",
+    "runtime-main.js": "/artdecoration-on-reactjs/latest/static/js/runtime-main.a6e90afd.js",
+    "runtime-main.js.map": "/artdecoration-on-reactjs/latest/static/js/runtime-main.a6e90afd.js.map",
+    "static/js/2.34f3048e.chunk.js": "/artdecoration-on-reactjs/latest/static/js/2.34f3048e.chunk.js",
+    "static/js/2.34f3048e.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/2.34f3048e.chunk.js.map",
+    "static/js/3.43025c4d.chunk.js": "/artdecoration-on-reactjs/latest/static/js/3.43025c4d.chunk.js",
+    "static/js/3.43025c4d.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/3.43025c4d.chunk.js.map",
     "static/js/4.7c30e62d.chunk.js": "/artdecoration-on-reactjs/latest/static/js/4.7c30e62d.chunk.js",
     "static/js/4.7c30e62d.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/4.7c30e62d.chunk.js.map",
     "static/js/5.55e456c9.chunk.js": "/artdecoration-on-reactjs/latest/static/js/5.55e456c9.chunk.js",
     "static/js/5.55e456c9.chunk.js.map": "/artdecoration-on-reactjs/latest/static/js/5.55e456c9.chunk.js.map",
     "index.html": "/artdecoration-on-reactjs/latest/index.html",
-    "precache-manifest.4a93b9126705e55ae0db1c87f906534f.js": "/artdecoration-on-reactjs/latest/precache-manifest.4a93b9126705e55ae0db1c87f906534f.js",
+    "precache-manifest.eb6cd0b2159a06c0bb3b3d9545751a5e.js": "/artdecoration-on-reactjs/latest/precache-manifest.eb6cd0b2159a06c0bb3b3d9545751a5e.js",
     "service-worker.js": "/artdecoration-on-reactjs/latest/service-worker.js",
-    "static/css/main.867833c9.chunk.css.map": "/artdecoration-on-reactjs/latest/static/css/main.867833c9.chunk.css.map",
-    "static/js/2.c4ed59c8.chunk.js.LICENSE.txt": "/artdecoration-on-reactjs/latest/static/js/2.c4ed59c8.chunk.js.LICENSE.txt",
+    "static/css/main.39cd8c12.chunk.css.map": "/artdecoration-on-reactjs/latest/static/css/main.39cd8c12.chunk.css.map",
+    "static/js/2.34f3048e.chunk.js.LICENSE.txt": "/artdecoration-on-reactjs/latest/static/js/2.34f3048e.chunk.js.LICENSE.txt",
     "static/media/b2.jpg": "/artdecoration-on-reactjs/latest/static/media/b2.d7d4a4ca.jpg",
     "static/media/b3.jpg": "/artdecoration-on-reactjs/latest/static/media/b3.dcf8cb25.jpg",
     "static/media/b4.jpg": "/artdecoration-on-reactjs/latest/static/media/b4.247f9c54.jpg",
@@ -174,9 +174,9 @@
     "static/media/venecianka_1.jpg": "/artdecoration-on-reactjs/latest/static/media/venecianka_1.c1ddcad6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4852cfa.js",
-    "static/js/2.c4ed59c8.chunk.js",
-    "static/css/main.867833c9.chunk.css",
-    "static/js/main.5168ec16.chunk.js"
+    "static/js/runtime-main.a6e90afd.js",
+    "static/js/2.34f3048e.chunk.js",
+    "static/css/main.39cd8c12.chunk.css",
+    "static/js/main.5dd73eeb.chunk.js"
   ]
 }
