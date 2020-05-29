@@ -105,7 +105,7 @@ async function generate() {
     </urlset>
   `.trim();
 
-  fs.writeFileSync(`${__dirname}/../public/sitemap.xml`, content);
+  fs.writeFileSync(`${__dirname}/../build/sitemap.xml`, content);
 }
 
 generate()
