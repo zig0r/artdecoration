@@ -1,0 +1,58 @@
+name: Deploy to Github pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/main.yml
+      - '{src,tools,public}/**/*'
+      - '*.{js,json}'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      env:
+        cache-name: artedecor-deps
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+    - name: Build sitemap
+      run: npm run build.sitemap
+    - name: Build website
+      run: |
+        npm install
+        APP_COMMIT_HASH=$(git rev-parse --short "$GITHUB_SHA") NODE_ENV=production npm run build
+    - name: Pre-render
+      run: npm run build.pages
+    - name: Deploy
+      env:
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        GITHUB_ACTOR: deploy-bot
+      run: |
+        DOCS_ROOT="./latest"
+        cat <<- EOF > $HOME/.netrc
+          machine github.com
+          login $GITHUB_ACTOR
+          password $GITHUB_TOKEN
+          machine api.github.com
+          login $GITHUB_ACTOR
+          password $GITHUB_TOKEN
+        EOF
+        chmod 600 $HOME/.netrc
+        git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
+        git config --global user.name "$GITHUB_ACTOR"
+        git fetch origin gh-pages
+        git checkout gh-pages
+        rm -rf $DOCS_ROOT
+        mv build $DOCS_ROOT
+        git add .
+        git commit -m "chore(release): deploy ${DOCS_ROOT}"
+        git push --set-upstream origin gh-pages
