@@ -7,6 +7,7 @@ const { createServer } = require('history-server');
 const writeFile = promisify(fs.writeFile);
 const mkdir = promisify(fs.mkdir);
 let LOCAL_APP = 'http://localhost:';
+const BASE_URL = process.env.PUBLIC_URL || '';
 
 async function readSitemapUrls(browser) {
   const page = await browser.newPage();
@@ -33,7 +34,7 @@ async function renderPage({ page, iterator }, options) {
     await page.waitForSelector('.content');
 
     const html = await page.content();
-    const fullPath = options.basePath + url;
+    const fullPath = options.basePath + url.slice(BASE_URL.length);
 
     console.log(`[saving]: ${url}`);
     await mkdir(fullPath, { recursive: true });
