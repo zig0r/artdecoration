@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import CategoriesNav from '../CategoriesNav/CategoriesNav';
-import CategorySwiper from '../Services/ServicesSwiper';
+import CategorySwiper from '../Services/CategorySwiper';
 import { useCategories, useCategory, useCategoriesRedirect } from '../../services/categories';
 import { useI18n } from '../../services/i18n';
 

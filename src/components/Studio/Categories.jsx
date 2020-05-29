@@ -19,6 +19,8 @@ export default class Categories extends React.PureComponent {
   render() {
     const categories = this.props.items.map((item) => {
       const selectedChild = this.state.selected[item.id] || item.children[0];
+      const sampleImage = require(`@/content/categories/${selectedChild.id}/sample.jpg`);
+
       return <div key={item.id} className={s.block}>
         <div>
           <h2>{item.title}</h2>
@@ -29,7 +31,7 @@ export default class Categories extends React.PureComponent {
           ))}</ul>
         </div>
         <div>
-          <img alt="decor" src={require(`@/img/categories/${selectedChild.id}.jpg`)} width="224" />
+          <img src={sampleImage} width="224" alt={item.title} />
         </div>
       </div>
     });

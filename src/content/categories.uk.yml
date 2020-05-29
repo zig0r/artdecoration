@@ -4,58 +4,58 @@ categories:
   children:
   - id: venetsianka
     title: Венеціанка
-    description: !md "@include: categories/venetsianka.uk.md"
+    description: !md "@include: categories/venetsianka/uk.md"
   - id: grotto
     title: Гротто
-    description: !md "@include: categories/grotto.uk.md"
+    description: !md "@include: categories/grotto/uk.md"
   - id: marmorino
     title: Марморіно
-    description: !md "@include: categories/marmorino.uk.md"
+    description: !md "@include: categories/marmorino/uk.md"
   - id: marselskyi-visk
     title: Марсельський віск
-    description: !md "@include: categories/marselskyi-visk.uk.md"
+    description: !md "@include: categories/marselskyi-visk/uk.md"
   - id: mirazh
     title: Міраж
-    description: !md "@include: categories/mirazh.uk.md"
+    description: !md "@include: categories/mirazh/uk.md"
   - id: ottochento
     title: Отточенто
-    description: !md "@include: categories/ottochento.uk.md"
+    description: !md "@include: categories/ottochento/uk.md"
   - id: papirus
     title: Папірус
-    description: !md "@include: categories/papirus.uk.md"
+    description: !md "@include: categories/papirus/uk.md"
   - id: persiya
     title: Персія
-    description: !md "@include: categories/persiya.uk.md"
+    description: !md "@include: categories/persiya/uk.md"
   - id: sahara
     title: Сахара
-    description: !md "@include: categories/sahara.uk.md"
+    description: !md "@include: categories/sahara/uk.md"
   - id: stukko
     title: Стукко
-    description: !md "@include: categories/stukko.uk.md"
+    description: !md "@include: categories/stukko/uk.md"
   - id: travertino
     title: Травертіно
-    description: !md "@include: categories/travertino.uk.md"
+    description: !md "@include: categories/travertino/uk.md"
   - id: imitatsiia-dereva
     title: Імітація дерева
-    description: !md "@include: categories/imitatsiia-dereva.uk.md"
+    description: !md "@include: categories/imitatsiia-dereva/uk.md"
   - id: dekorativnyi-kamin
     title: Декоративний камінь
-    description: !md "@include: categories/dekorativnyi-kamin.uk.md"
+    description: !md "@include: categories/dekorativnyi-kamin/uk.md"
 - id: rospis
   title: Розпис стін, фрески
   children:
   - id: khudozhnii-rozpis
     title: Художній розпис
-    description: !md "@include: categories/khudozhnii-rozpis.uk.md"
+    description: !md "@include: categories/khudozhnii-rozpis/uk.md"
   - id: relefnii-rozpis
     title: Рельєфний розпис
-    description: !md "@include: categories/relefnii-rozpis.uk.md"
+    description: !md "@include: categories/relefnii-rozpis/uk.md"
   - id: trafaretnii-rozpis
     title: Трафаретний розпис
-    description: !md "@include: categories/trafaretnii-rozpis.uk.md"
+    description: !md "@include: categories/trafaretnii-rozpis/uk.md"
   - id: bagheti-koloni-kapiteli
     title: Багети, колони, капітелі
-    description: !md "@include: categories/bagheti-koloni-kapiteli.uk.md"
+    description: !md "@include: categories/bagheti-koloni-kapiteli/uk.md"
   - id: petrikivskii-rozpis
     title: Петриківський розпис
-    description: !md "@include: categories/petrikivskii-rozpis.uk.md"
+    description: !md "@include: categories/petrikivskii-rozpis/uk.md"

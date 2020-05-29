@@ -1,14 +1,14 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
 import { NavLink } from 'react-router-dom';
-import s from './Studio.module.scss';
-import './Quotes.swiper.scss';
-import ImageSwiper from '../ImageSwiper/ImageSwiper';
+import MainSwiper from '../MainSwiper/MainSwiper';
 import Categories from './Categories';
 import Html from '../Html';
 import { useCategories } from '../../services/categories';
 import { useQuotes } from '../../services/quotes';
 import { useI18n } from '../../services/i18n';
+import s from './Studio.module.scss';
+import './Quotes.swiper.scss';
 
 const swiperOptions = {
   loop: true,
@@ -18,7 +18,7 @@ const swiperOptions = {
   }
 };
 
-const MainSwiper = () => {
+const TopSwiper = () => {
   const { quotes } = useQuotes();
   const { t } = useI18n();
   let QuotesSwiper;
@@ -38,7 +38,7 @@ const MainSwiper = () => {
 
   return (
     <div className={s.swiperContainer}>
-      <ImageSwiper name="main" />
+      <MainSwiper />
       <div className="quotes-container">
         <div className="quotes">
           <Html value={t('quotes.title')} />
@@ -55,7 +55,7 @@ export default () => {
 
   return (
     <>
-      <MainSwiper />
+      <TopSwiper />
       <div className="content-wrapper">
         <div className="content">
           <h3 className="container-style">{t('menu.studio')}</h3>

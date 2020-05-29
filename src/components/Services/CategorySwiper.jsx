@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Swiper from 'react-id-swiper';
-import GALLERIES from '../../services/gallery';
+import { categoriesGallery } from '../../services/gallery';
 
 const mainSwiperOptions = {
   lazy: true,
@@ -37,7 +37,7 @@ function useAsSwiperController(categorySwiper, thumbsSwiper) {
 export default (props) => {
   const [categorySwiper, setCategorySwiper] = useState(null);
   const [thumbsSwiper, setThumbnailSwiper] = useState(null);
-  const images = GALLERIES[props.name];
+  const images = categoriesGallery[props.name];
 
   if (!images) {
     return null;

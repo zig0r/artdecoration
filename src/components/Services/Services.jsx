@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useCategories, useCategory, useCategoriesRedirect } from '../../services/categories';
 import { useI18n } from '../../services/i18n';
 import CategoriesNav from '../CategoriesNav/CategoriesNav';
-import CategorySwiper from './ServicesSwiper';
+import CategorySwiper from './CategorySwiper';
 import s from './Services.module.scss';
 import Html from '../Html';
 
