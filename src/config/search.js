@@ -22,7 +22,6 @@ function extractField(object, fieldName) {
 }
 export default {
   extractField,
-  idField: 'name',
   storeFields: ['content'],
   fields: ['title', 'content'],
   searchOptions: {
