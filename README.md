@@ -1,5 +1,7 @@
 # http://artdecoration.com.ua
 
+Написаний на React.js і React hooks
+
 ## Вимоги
 
 Node.js 12.x
@@ -35,6 +37,10 @@ npm run build.pages
 ```
 
 **Важливо**: запускати вказані вище скрипти потрібно саме в такому порядку. sitemap.xml кладеться в папку `build`, а генерація HTML відбувається за допомогою sitemap.xml, тому воно одне без іншого не працює.
+
+## Хостинг і CI
+
+Сайт хоститься на Github Pages і білдиться за допомогою Github Actions. Воркфлов знаходиться [тут](.github/workflows/main.yml).
 
 ## Пошук
 
