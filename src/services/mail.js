@@ -1,5 +1,3 @@
-// fetch('', { more: 'cors', method: 'POST', body: JSON.stringify({ name: 'Me', message2: 'test me here again!' }) }).then(response => response.json()).then(console.log, console.error)
-
 const googleAppScriptUrl = 'https://script.google.com/macros/s/AKfycbz34B8xl8qdDClslJUQ0c6FQql4WLe1wE0HyeL5-ja9vnELWYk/exec';
 
 export function sendEmail(vars) {
