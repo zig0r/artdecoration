@@ -109,3 +109,16 @@
     }
   }
 }
+
+.response {
+  margin: 15px 0;
+}
+
+.errorResponse,
+.invalidResponse {
+  color: #f00;
+}
+
+.sentResponse {
+  color: rgb(4, 136, 4);
+}

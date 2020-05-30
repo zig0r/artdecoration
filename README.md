@@ -1,10 +1,10 @@
 # http://artdecoration.com.ua
 
-## Requirements
+## Вимоги
 
 Node.js 12.x
 
-## Installation
+## Встановлення
 
 ```sh
 git clone
@@ -14,34 +14,54 @@ npm ci
 npm start # to run the app locally in dev mode
 ```
 
-## Build
+## Генерація
 
-To build a production version run
+Для того щоб створити production-ready версію:
 
 ```sh
 npm run build
 ```
 
-To build sitemap.xml, run
+Щоб створити sitemap.xml, треба запустити
 
 ```sh
 npm run build.sitemap # saves sitemap.xml to "build" folder, so run it after npm run build
 ```
 
-To pre-render all pages from sitemap.xml run
+Щоб згенерувати HTML для сторінок:
 
 ```sh
 npm run build.pages
 ```
 
-It uses puppeteer to render built content, make sure to run this after `npm run build`, so your users will get the latest version.
+**Важливо**: запускати вказані вище скрипти потрібно саме в такому порядку. sitemap.xml кладеться в папку `build`, а генерація HTML відбувається за допомогою sitemap.xml, тому воно одне без іншого не працює.
 
-## Search
+## Пошук
 
-This app uses [minisearch] library to search over categories. This library allows to do full text search on client side without backend.
+Для пошуку використовується [minisearch] бібліотека, що дозволяє робити full text пошук по категоріям в браузері.
 
 [minisearch]: https://lucaong.github.io/minisearch/
 
-## Content
+## Контент
 
-TODO
+Весь контент знаходиться в папці [src/content](./src/content):
+
+| Файл                  | Призначення                    |
+| ----------------------|------------------------------|
+| app.uk.yml            | Переклади для інтерфейсу         |
+| quotes.uk.yml         | Цитати                        |
+| categories.uk.yml     | Ієрархія категорій                |
+
+### Папка categories
+
+Ця папка містить всю основну інформацію про категорії. Ім'я кожної папки всередині відповідає значенню `id` у файлі `categories.uk.yml`, це обов'язкова умова, інакше не буде знайдено sample малюнок і галерею для категорії.
+
+В кожній папці під категорію є `sample.jpg` - це малюнок, що відображається на головній сторінці. Окрім того там же є файли .md (markdown розмітки), що використовуються як описання категорії та папка з малюнками для галереї.
+
+### Мета теги
+
+Інформацію по мета тегам знаходиться окремо для статичних сторінок в `app.uk.yml` і окремо для кожної категорії в `categories.uk.yml`. Всі вони знаходяться у об'єкті `meta` (наприклад, `meta.keywords`).
+
+## Контакти
+
+Email відправляється за допомогою Google Apps Script [sendEmail](https://script.google.com/d/1-Hn2I7Ee420s2ytd92jnBgVr8HJAVaHH4ZoxUkD9hhCXmVYzM02y1bgt/edit?splash=yes#). Власник цього скрипта artdecoration.com.ua@gmail.com акаунт. Цей же акаунт і відправляє повідомлення. Кому відправляти повідомлення прописанов в самому скрипті.

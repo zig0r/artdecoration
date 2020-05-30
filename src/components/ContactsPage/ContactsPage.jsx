@@ -22,8 +22,29 @@ const DEFAULT_VALUES = {
 export default () => {
   const { messages, t } = useI18n();
   const [values, setValues] = useState(DEFAULT_VALUES);
+  const [response, setResponse] = useState();
   const setValue = prop => event => setValues({ ...values, [prop]: event.target.value });
-  const submit = () => sendEmail(values);
+  const submit = () => {
+    return sendEmail(values)
+      .then((response) => {
+        setResponse(response);
+
+        if (response.status === 'sent') {
+          setValues(DEFAULT_VALUES);
+        }
+      })
+      .catch((error) => {
+        setResponse({ status: 'error' });
+        console.error(error);
+      });
+  };
+  let responseMessage;
+
+  if (response) {
+    responseMessage = <div className={`${s.response} ${s[`${response.status}Response`]}`}>
+      {t(`contact.form.response.${response.status}`)}
+    </div>;
+  }
 
   return (
     <div className="content">
@@ -32,7 +53,7 @@ export default () => {
       <article className={s.container}>
         <div className={s.block}>
           <h3>{t('contact.form.title')}:</h3>
-
+          {responseMessage}
           <Form className={s.form} onSubmit={submit}>
             {({ pristine, submitting }) => (<>
               <ContactInput

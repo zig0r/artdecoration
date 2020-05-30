@@ -14,8 +14,6 @@ export default (props) => {
     meta = messages && messages[props.name] ? messages[props.name].meta : null;
   }
 
-  console.log(meta)
-
   if (!meta) {
     return null;
   }
