@@ -18,7 +18,6 @@ jobs:
         node:
           - 12
     env:
-      PUBLIC_URL: /artdecoration
       RELEASE_ROOT: .
       BUILD_ROOT: build
       REACT_APP_GA_ID: UA-36031394-1
@@ -64,10 +63,9 @@ jobs:
         git fetch origin gh-pages
         git checkout -f gh-pages
 
-        mv $BUILD_ROOT .build
-        rm -rf $RELEASE_ROOT/*
-        mv .build/* $RELEASE_ROOT
-        rmdir .build
+        ls $RELEASE_ROOT | grep -vE ^(CNAME|node_modules)$ | xargs rm -rf
+        mv $BUILD_ROOT/* $RELEASE_ROOT
+        rmdir $BUILD_ROOT
         cp index.html 404.html
         git add $RELEASE_ROOT
         git commit -m "chore(release): deploy ${RELEASE_ROOT} ${PUBLIC_URL}"
