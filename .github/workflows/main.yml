@@ -40,11 +40,11 @@ jobs:
     - name: Build website
       env:
         NODE_ENV: production
-      run: REACT_APP_COMMIT_HASH=$(git rev-parse --short "$GITHUB_SHA") npm run build
-    # - name: Build sitemap
-    #   run: npm run build.sitemap
-    # - name: Pre-render
-    #   run: npm run build.pages
+      run: REACT_APP_COMMIT_HASH=$(git rev-parse --short "$GITHUB_SHA") REACT_APP_BUILD_TIME=$(date -Iminutes) npm run build
+    - name: Build sitemap
+      run: npm run build.sitemap
+    - name: Pre-render
+      run: npm run build.pages
     - name: Deploy
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
@@ -61,16 +61,14 @@ jobs:
         chmod 600 $HOME/.netrc
         git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
         git config --global user.name "$GITHUB_ACTOR"
-        git checkout . # reset possible changes to lock file
-        ls -l
         git fetch origin gh-pages
-        git checkout gh-pages
+        git checkout -f gh-pages
 
-        test -d $RELEASE_ROOT || mkdir $RELEASE_ROOT
+        mv $BUILD_ROOT .build
         rm -rf $RELEASE_ROOT/*
-        ls -l
-        mv $BUILD_ROOT/* $RELEASE_ROOT
-        rmdir $BUILD_ROOT
+        mv .build/* $RELEASE_ROOT
+        rmdir .build
+        cp index.html 404.html
         git add $RELEASE_ROOT
         git commit -m "chore(release): deploy ${RELEASE_ROOT} ${PUBLIC_URL}"
         git push origin gh-pages
