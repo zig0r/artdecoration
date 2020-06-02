@@ -65,6 +65,7 @@ jobs:
 
         test -d $DOCS_ROOT || mkdir $DOCS_ROOT
         rm -rf $DOCS_ROOT/*
+        ls -l
         mv build/* $DOCS_ROOT
         rmdir build
         git add $DOCS_ROOT
