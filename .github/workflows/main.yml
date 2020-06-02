@@ -63,7 +63,7 @@ jobs:
         git fetch origin gh-pages
         git checkout -f gh-pages
 
-        ls $RELEASE_ROOT | grep -vE ^(CNAME|node_modules)$ | xargs rm -rf
+        ls $RELEASE_ROOT | grep -vE '^(CNAME|node_modules)$' | xargs rm -rf
         mv $BUILD_ROOT/* $RELEASE_ROOT
         rmdir $BUILD_ROOT
         cp index.html 404.html
