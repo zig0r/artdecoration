@@ -1,6 +1,6 @@
 # http://artdecoration.com.ua
 
-Написаний на React.js і React hooks
+Написаний на React.js і React hooks by @Olena-Stotska and @stalniy
 
 ## Вимоги
 
