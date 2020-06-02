@@ -18,8 +18,9 @@ jobs:
         node:
           - 12
     env:
-      PUBLIC_URL: /artdecoration-on-reactjs/latest
-      DOCS_ROOT: latest
+      PUBLIC_URL: /artdecoration
+      DOCS_ROOT: .
+      REACT_APP_GA_ID: UA-36031394-1
     steps:
     - uses: actions/checkout@v2
     - name: Cache dependencies
@@ -38,10 +39,6 @@ jobs:
     - name: Build website
       env:
         NODE_ENV: production
-        REACT_APP_MAIL_API_KEY: "${{ secrets.MAIL_API_KEY }}"
-        REACT_APP_CONTACT_EMAIL: sergiy.stotskiy@gmail.com # igorzamora@gmail.com
-        REACT_APP_MAIL_API_URL: https://api.mailjet.com/v3.1/send
-        REACT_APP_GA_ID: UA-36031394-1
       run: REACT_APP_COMMIT_HASH=$(git rev-parse --short "$GITHUB_SHA") npm run build
     - name: Build sitemap
       run: npm run build.sitemap
@@ -65,8 +62,10 @@ jobs:
         git config --global user.name "$GITHUB_ACTOR"
         git fetch origin gh-pages
         git checkout -f gh-pages
-        rm -rf $DOCS_ROOT
-        mv build $DOCS_ROOT
+        
+        rm -rf $DOCS_ROOT/*
+        mv build/* build/.* $DOCS_ROOT
+        rmdir build
         git add $DOCS_ROOT
-        git commit -m "chore(release): deploy ${DOCS_ROOT}"
-        git push --set-upstream origin gh-pages
+        git commit -m "chore(release): deploy ${DOCS_ROOT} ${PUBLIC_URL}"
+        git push origin gh-pages
