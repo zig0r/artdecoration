@@ -35,7 +35,7 @@ jobs:
           ${{ runner.os }}-build-
           ${{ runner.os }}-
     - name: Install dependencies
-      run: npm install
+      run: npm install --prefer-offline
     - name: Build website
       env:
         NODE_ENV: production
@@ -62,9 +62,10 @@ jobs:
         git config --global user.name "$GITHUB_ACTOR"
         git fetch origin gh-pages
         git checkout -f gh-pages
-        
+
+        test -d $DOCS_ROOT || mkdir $DOCS_ROOT
         rm -rf $DOCS_ROOT/*
-        mv build/* build/.* $DOCS_ROOT
+        mv build/* $DOCS_ROOT
         rmdir build
         git add $DOCS_ROOT
         git commit -m "chore(release): deploy ${DOCS_ROOT} ${PUBLIC_URL}"
