@@ -9,12 +9,12 @@ const params = {
   slideToClickedSlide: true,
   loop: true,
   autoplay: {
-    delay: 50000,
+    delay: 5000,
     disableOnInteraction: false
   },
 };
 
-export default (props) => {
+export default () => {
   return (
     <div className="image-swiper">
       <Swiper {...params} slideClass="no-styles">
