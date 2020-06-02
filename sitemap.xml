@@ -2,6 +2,22 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       
     <url>
+      <loc>http://localhost:3000/</loc>
+      <lastmod>2020-06-02</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
+      <loc>http://localhost:3000/contacts</loc>
+      <lastmod>2020-06-02</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1</priority>
+    </url>
+  
+
+    <url>
       <loc>http://localhost:3000/service/venetsianka</loc>
       <lastmod>2020-06-02</lastmod>
       <changefreq>monthly</changefreq>
@@ -139,14 +155,6 @@
 
     <url>
       <loc>http://localhost:3000/service/petrikivskii-rozpis</loc>
-      <lastmod>2020-06-02</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1</priority>
-    </url>
-  
-
-    <url>
-      <loc>http://localhost:3000/service/test</loc>
       <lastmod>2020-06-02</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1</priority>
@@ -294,30 +302,6 @@
       <lastmod>2020-06-02</lastmod>
       <changefreq>yearly</changefreq>
       <priority>0.7</priority>
-    </url>
-  
-
-    <url>
-      <loc>http://localhost:3000/gallery/test</loc>
-      <lastmod>2020-06-02</lastmod>
-      <changefreq>yearly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-
-    <url>
-      <loc>http://localhost:3000/</loc>
-      <lastmod>2020-06-02</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1</priority>
-    </url>
-  
-
-    <url>
-      <loc>http://localhost:3000/contacts</loc>
-      <lastmod>2020-06-02</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1</priority>
     </url>
   
     </urlset>
