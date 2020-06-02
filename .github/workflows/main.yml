@@ -19,7 +19,8 @@ jobs:
           - 12
     env:
       PUBLIC_URL: /artdecoration
-      DOCS_ROOT: .
+      RELEASE_ROOT: .
+      BUILD_ROOT: build
       REACT_APP_GA_ID: UA-36031394-1
     steps:
     - uses: actions/checkout@v2
@@ -60,14 +61,15 @@ jobs:
         chmod 600 $HOME/.netrc
         git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
         git config --global user.name "$GITHUB_ACTOR"
+        git checkout . # reset possible changes to lock file
         git fetch origin gh-pages
-        git checkout -f gh-pages
+        git checkout gh-pages
 
-        test -d $DOCS_ROOT || mkdir $DOCS_ROOT
-        rm -rf $DOCS_ROOT/*
+        test -d $RELEASE_ROOT || mkdir $RELEASE_ROOT
+        rm -rf $RELEASE_ROOT/*
         ls -l
-        mv build/* $DOCS_ROOT
-        rmdir build
-        git add $DOCS_ROOT
-        git commit -m "chore(release): deploy ${DOCS_ROOT} ${PUBLIC_URL}"
+        mv $BUILD_ROOT/* $RELEASE_ROOT
+        rmdir $BUILD_ROOT
+        git add $RELEASE_ROOT
+        git commit -m "chore(release): deploy ${RELEASE_ROOT} ${PUBLIC_URL}"
         git push origin gh-pages
