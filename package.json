@@ -20,7 +20,7 @@
     "js-yaml": "^3.14.0",
     "markdown-it-container": "^2.0.0",
     "markdown-it-include": "^1.1.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "puppeteer": "^3.1.0",
     "react-app-rewired": "^2.1.5",
     "react-scripts": "^3.4.0",
